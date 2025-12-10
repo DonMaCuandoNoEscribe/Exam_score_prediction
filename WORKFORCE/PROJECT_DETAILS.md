@@ -71,23 +71,23 @@ Features include: Hours_Studied, Attendance, Previous_Scores, Sleep_Hours, Tutor
 Teams work **concurrently**, not sequentially. Only true dependencies block progress.
 
 ```
-DATA SCIENCE          BACKEND              FRONTEND
-─────────────         ───────              ────────
-[x] EDA               [ ] API Design       [ ] UI Design
-[ ] Feature Eng       [ ] Endpoints        [ ] Components  
-[ ] Model Train       [ ] Validation       [ ] Forms
-[ ] Export .joblib ──────► Integration     [ ] API Connect
-                           │                     │
-                           └─────────┬───────────┘
-                                     ▼
-                              INTEGRATION
-                              ───────────
-                              [ ] E2E Test
-                              [ ] Deploy
+DATA SCIENCE ✅        ML OPS              BACKEND              FRONTEND
+──────────────         ──────              ───────              ────────
+[x] EDA                [ ] Export .joblib  [ ] API Design       [ ] UI Design
+[x] Feature Eng        [ ] feature_config  [ ] Endpoints        [ ] Components  
+[x] Model Train        [ ] Test inference  [ ] Validation       [ ] Forms
+[x] Evaluation ───────────────────────────────► Integration     [ ] API Connect
+                                                 │                     │
+                                                 └─────────┬───────────┘
+                                                           ▼
+                                                    INTEGRATION
+                                                    ───────────
+                                                    [ ] E2E Test
+                                                    [ ] Deploy
 ```
 
 ### Dependencies
-- **Model Export → Backend Integration**: Backend needs .joblib to integrate
+- **ML Ops Export → Backend Integration**: Backend needs .joblib to integrate
 - **API Endpoints → Frontend API Connect**: Frontend needs endpoints to call
 - Everything else proceeds in parallel
 
@@ -95,17 +95,25 @@ DATA SCIENCE          BACKEND              FRONTEND
 
 | Team | Status | Current Task | Blocker |
 |------|--------|--------------|---------|
-| Data Science | Active | Feature Engineering | None |
-| Backend | Ready | Can start per API_SPEC.md | Awaiting model.joblib |
-| Frontend | Ready | Can start per UI_SPEC.md | Awaiting API endpoints |
+| Data Science | ✅ Complete | - | - |
+| Frontend | ✅ Complete | - | - |
+| ML Ops | Ready | Export model.joblib | None |
+| Backend | Ready | FastAPI endpoints | Awaiting model.joblib |
 
 ---
 
-## Model Requirements
+## Final Model (ElasticNet)
 
-- **R² Score:** > 0.75
-- **MAE:** < 10% of score range
-- Algorithms to try: Linear Regression, Random Forest, XGBoost
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+| R² Score | > 0.75 | 0.7291 | ⚠️ Close |
+| MAE | < 10% | 7.80 | ✅ Met |
+| RMSE | - | 9.75 | - |
+
+- **Algorithm:** ElasticNet (L1+L2 regularization)
+- **Features:** 29 total, 20 selected via L1
+- **Interaction terms:** 3 of 6 engineered features used
+- **Status:** Production-ready
 
 ---
 

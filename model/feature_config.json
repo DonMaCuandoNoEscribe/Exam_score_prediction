@@ -1,0 +1,189 @@
+{
+  "model_info": {
+    "name": "student_score_predictor",
+    "version": "1.0.0",
+    "algorithm": "ElasticNet",
+    "description": "Predicts student exam scores based on study habits and demographics",
+    "r2_score": 0.7291,
+    "rmse": 9.75,
+    "mae": 7.8,
+    "created_date": "2025-12-10"
+  },
+  "numerical_features": [
+    {
+      "name": "age",
+      "type": "int",
+      "description": "Student age in years",
+      "min": 17,
+      "max": 24
+    },
+    {
+      "name": "study_hours",
+      "type": "float",
+      "description": "Daily study hours",
+      "min": 0.08,
+      "max": 7.91
+    },
+    {
+      "name": "class_attendance",
+      "type": "float",
+      "description": "Class attendance percentage (0-100)",
+      "min": 40.6,
+      "max": 99.4
+    },
+    {
+      "name": "sleep_hours",
+      "type": "float",
+      "description": "Daily sleep hours",
+      "min": 4.1,
+      "max": 9.9
+    }
+  ],
+  "categorical_features": [
+    {
+      "name": "gender",
+      "type": "string",
+      "description": "Student gender",
+      "options": [
+        "female",
+        "other",
+        "male"
+      ]
+    },
+    {
+      "name": "course",
+      "type": "string",
+      "description": "Course/subject enrolled",
+      "options": [
+        "b.sc",
+        "b.com",
+        "b.tech",
+        "ba",
+        "bba",
+        "diploma",
+        "bca"
+      ]
+    },
+    {
+      "name": "internet_access",
+      "type": "string",
+      "description": "Internet access availability",
+      "options": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "name": "sleep_quality",
+      "type": "string",
+      "description": "Quality of sleep",
+      "options": [
+        "poor",
+        "average",
+        "good"
+      ]
+    },
+    {
+      "name": "study_method",
+      "type": "string",
+      "description": "Primary study method",
+      "options": [
+        "self-study",
+        "group study",
+        "online videos",
+        "coaching",
+        "mixed"
+      ]
+    },
+    {
+      "name": "facility_rating",
+      "type": "string",
+      "description": "Rating of study facilities",
+      "options": [
+        "medium",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "name": "exam_difficulty",
+      "type": "string",
+      "description": "Perceived exam difficulty",
+      "options": [
+        "easy",
+        "moderate",
+        "hard"
+      ]
+    }
+  ],
+  "interaction_features": [
+    {
+      "name": "study_x_sleep",
+      "derived_from": [
+        "study_hours",
+        "sleep_hours"
+      ],
+      "formula": "study_hours * sleep_hours",
+      "description": "Study-rest balance interaction"
+    },
+    {
+      "name": "study_x_attendance",
+      "derived_from": [
+        "study_hours",
+        "class_attendance"
+      ],
+      "formula": "study_hours * class_attendance",
+      "description": "Self-study + class engagement interaction"
+    },
+    {
+      "name": "study_squared",
+      "derived_from": [
+        "study_hours"
+      ],
+      "formula": "study_hours ** 2",
+      "description": "Diminishing returns on studying"
+    },
+    {
+      "name": "sleep_x_quality",
+      "derived_from": [
+        "sleep_hours",
+        "sleep_quality"
+      ],
+      "formula": "sleep_hours * sleep_quality_encoded",
+      "description": "Sleep effectiveness interaction"
+    },
+    {
+      "name": "study_x_difficulty",
+      "derived_from": [
+        "study_hours",
+        "exam_difficulty"
+      ],
+      "formula": "study_hours * exam_difficulty_encoded",
+      "description": "Preparation vs challenge interaction"
+    },
+    {
+      "name": "attendance_x_method",
+      "derived_from": [
+        "class_attendance",
+        "study_method"
+      ],
+      "formula": "class_attendance * study_method_encoded",
+      "description": "Learning style interaction"
+    }
+  ],
+  "preprocessing_info": {
+    "numerical_scaler": "StandardScaler",
+    "categorical_encoder": "OneHotEncoder (drop='first')",
+    "interaction_scaler": "StandardScaler",
+    "columns_to_drop": [
+      "student_id"
+    ]
+  },
+  "target": {
+    "name": "exam_score",
+    "type": "float",
+    "description": "Predicted exam score",
+    "min": 0,
+    "max": 100
+  }
+}
