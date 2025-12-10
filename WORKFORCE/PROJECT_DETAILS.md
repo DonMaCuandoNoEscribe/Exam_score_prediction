@@ -5,7 +5,8 @@
 **Project:** Student Exam Score Predictor  
 **Type:** Full-Stack ML Web Application  
 **Purpose:** Portfolio project demonstrating end-to-end MLOps pipeline  
-**Dataset:** [Kaggle - Exam Score Prediction](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset)
+**Dataset:** [Kaggle - Exam Score Prediction](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset)  
+**Deployment:** Hugging Face Spaces (Docker SDK) - Free
 
 ---
 
@@ -20,20 +21,26 @@
 ## Architecture
 
 ```
+HUGGING FACE SPACES (Docker Container)
 ┌─────────────────────────────────────────────────────────┐
-│                    FRONTEND                              │
-│           Beautiful form → Predicted score               │
-└─────────────────────────┬───────────────────────────────┘
-                          │ HTTP
-┌─────────────────────────▼───────────────────────────────┐
-│                    BACKEND API                           │
-│               FastAPI + Pydantic                         │
-└─────────────────────────┬───────────────────────────────┘
-                          │
-┌─────────────────────────▼───────────────────────────────┐
-│                    ML MODEL                              │
-│            scikit-learn pipeline (.joblib)               │
+│                                                          │
+│   ┌─────────────────────────────────────────────────┐   │
+│   │              FRONTEND (Static)                   │   │
+│   │              HTML / CSS / JavaScript             │   │
+│   └─────────────────────┬───────────────────────────┘   │
+│                         │ HTTP                           │
+│   ┌─────────────────────▼───────────────────────────┐   │
+│   │              BACKEND API                         │   │
+│   │              FastAPI + Pydantic                  │   │
+│   └─────────────────────┬───────────────────────────┘   │
+│                         │                                │
+│   ┌─────────────────────▼───────────────────────────┐   │
+│   │              ML MODEL (.joblib)                  │   │
+│   │              scikit-learn pipeline               │   │
+│   └─────────────────────────────────────────────────┘   │
+│                                                          │
 └─────────────────────────────────────────────────────────┘
+URL: huggingface.co/spaces/USERNAME/student-score-predictor
 ```
 
 ---
@@ -53,8 +60,9 @@ Features include: Hours_Studied, Attendance, Previous_Scores, Sleep_Hours, Tutor
 |-------|------------|
 | Data Science | Python, Pandas, Scikit-learn, Jupyter |
 | Backend | FastAPI, Pydantic, Uvicorn |
-| Frontend | TBD (React or Vanilla JS) |
-| Deployment | Docker, Cloud TBD |
+| Frontend | HTML, CSS, JavaScript (Vanilla) |
+| Containerization | Docker |
+| Deployment | Hugging Face Spaces (Docker SDK) |
 
 ---
 
@@ -88,8 +96,8 @@ DATA SCIENCE          BACKEND              FRONTEND
 | Team | Status | Current Task | Blocker |
 |------|--------|--------------|---------|
 | Data Science | Active | Feature Engineering | None |
-| Backend | Waiting | - | Needs API_SPEC.md |
-| Frontend | Waiting | - | Needs UI_SPEC.md |
+| Backend | Ready | Can start per API_SPEC.md | Awaiting model.joblib |
+| Frontend | Ready | Can start per UI_SPEC.md | Awaiting API endpoints |
 
 ---
 
@@ -101,11 +109,11 @@ DATA SCIENCE          BACKEND              FRONTEND
 
 ---
 
-## Open Questions
+## Decisions Made
 
-1. Frontend framework: React vs Vanilla JS?
-2. Deployment platform?
-3. Model versioning strategy?
+1. **Frontend:** Vanilla JS (HTML/CSS/JS) - full control, learn web fundamentals
+2. **Deployment:** Hugging Face Spaces with Docker SDK - learn both HF ecosystem and Docker
+3. **Architecture:** Full-stack (FastAPI backend + static frontend in Docker container)
 
 ---
 

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Score Predictor | ML Portfolio Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-decoration">
+        <div class="gradient-orb gradient-orb-1"></div>
+        <div class="gradient-orb gradient-orb-2"></div>
+        <div class="gradient-orb gradient-orb-3"></div>
+        <div class="noise-overlay"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <!-- Animated Logo Loop -->
+                <div class="logo-orbit">
+                    <div class="orbit-ring"></div>
+                    <div class="orbit-ring orbit-ring-2"></div>
+                    <div class="orbit-dot"></div>
+                    <div class="orbit-dot orbit-dot-2"></div>
+                    <div class="orbit-dot orbit-dot-3"></div>
+                    <div class="logo-center">
+                        <svg viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4L4 10V22L16 28L28 22V10L16 4Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                            <path d="M16 4V16M16 16L4 10M16 16L28 10" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="16" cy="16" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="logo-text">
+                    <h1>Student Score Predictor</h1>
+                    <div class="logo-badge">
+                        <span class="badge-dot"></span>
+                        Portfolio Project
+                    </div>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#stack" class="nav-link">Stack</a>
+                <a href="#predict" class="nav-link">Predict</a>
+            </nav>
+            <div class="header-status" id="serverStatus">
+                <span class="status-dot"></span>
+                <span class="status-text">Checking...</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero-section" id="about">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="code-tag">&lt;MLOps/&gt;</span>
+                    End-to-End Machine Learning Pipeline
+                </div>
+                <h2 class="hero-title">
+                    Predict Student Performance with 
+                    <span class="gradient-text">Machine Learning</span>
+                </h2>
+                <p class="hero-description">
+                    A full-stack ML application that helps educators predict student exam scores based on 
+                    study habits, attendance patterns, and environmental factors. Built as a portfolio project 
+                    demonstrating modern MLOps practices and beautiful, functional UI design.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">20K+</span>
+                        <span class="stat-label">Training Records</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">13</span>
+                        <span class="stat-label">Features Analyzed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">&gt;0.75</span>
+                        <span class="stat-label">R² Score Target</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Animated Data Visualization -->
+                <div class="data-viz">
+                    <div class="viz-ring viz-ring-1">
+                        <div class="viz-node" style="--angle: 0deg"></div>
+                        <div class="viz-node" style="--angle: 60deg"></div>
+                        <div class="viz-node" style="--angle: 120deg"></div>
+                        <div class="viz-node" style="--angle: 180deg"></div>
+                        <div class="viz-node" style="--angle: 240deg"></div>
+                        <div class="viz-node" style="--angle: 300deg"></div>
+                    </div>
+                    <div class="viz-ring viz-ring-2">
+                        <div class="viz-node" style="--angle: 30deg"></div>
+                        <div class="viz-node" style="--angle: 90deg"></div>
+                        <div class="viz-node" style="--angle: 150deg"></div>
+                        <div class="viz-node" style="--angle: 210deg"></div>
+                        <div class="viz-node" style="--angle: 270deg"></div>
+                        <div class="viz-node" style="--angle: 330deg"></div>
+                    </div>
+                    <div class="viz-center">
+                        <div class="viz-pulse"></div>
+                        <div class="viz-core">
+                            <svg viewBox="0 0 40 40" fill="none">
+                                <path d="M20 8L8 14V26L20 32L32 26V14L20 8Z" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M20 8V20L8 14" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M20 20L32 14" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M20 20V32" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section - Inspired by ReactBits Logo Loop -->
+        <section class="stack-section" id="stack">
+            <div class="section-header">
+                <span class="section-tag">// tech_stack</span>
+                <h3>Built With Modern Tools</h3>
+                <p>Production-ready architecture using industry-standard technologies</p>
+            </div>
+            
+            <!-- Animated Tech Stack Loop -->
+            <div class="tech-loop-container">
+                <div class="tech-loop">
+                    <div class="tech-track">
+                        <!-- First set -->
+                        <div class="tech-item">
+                            <div class="tech-icon python">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 6 4.02 6 5.5V8h6v1H4.5C2.79 9 2 10.77 2 13c0 2.23.79 4 2.5 4H6v-2.5c0-1.93 1.57-3.5 3.5-3.5h5c1.38 0 2.5-1.12 2.5-2.5v-3C17 3.57 14.43 2 12 2zm-1.5 2.5a1 1 0 110 2 1 1 0 010-2z"/>
+                                    <path d="M18 8v2.5c0 1.93-1.57 3.5-3.5 3.5h-5c-1.38 0-2.5 1.12-2.5 2.5v3c0 1.93 2.57 3.5 5 3.5 6.52 0 6-2.02 6-3.5V17h-6v-1h7.5c1.71 0 2.5-1.77 2.5-4 0-2.23-.79-4-2.5-4H18zm-4.5 9.5a1 1 0 110 2 1 1 0 010-2z"/>
+                                </svg>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon fastapi">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon sklearn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <circle cx="12" cy="5" r="2"/>
+                                    <circle cx="19" cy="12" r="2"/>
+                                    <circle cx="12" cy="19" r="2"/>
+                                    <circle cx="5" cy="12" r="2"/>
+                                    <path d="M12 8v1M12 15v1M15 12h-1M9 12H8"/>
+                                </svg>
+                            </div>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon pandas">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <rect x="4" y="2" width="4" height="8" rx="1"/>
+                                    <rect x="4" y="14" width="4" height="8" rx="1"/>
+                                    <rect x="10" y="6" width="4" height="12" rx="1"/>
+                                    <rect x="16" y="2" width="4" height="8" rx="1"/>
+                                    <rect x="16" y="14" width="4" height="8" rx="1"/>
+                                </svg>
+                            </div>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon js">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.002.003zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"/>
+                                </svg>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon jupyter">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="4.5" cy="12" r="2.5"/>
+                                    <circle cx="19.5" cy="5" r="2.5"/>
+                                    <circle cx="19.5" cy="19" r="2.5"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" opacity="0.3"/>
+                                </svg>
+                            </div>
+                            <span>Jupyter</span>
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="tech-item">
+                            <div class="tech-icon python">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 6 4.02 6 5.5V8h6v1H4.5C2.79 9 2 10.77 2 13c0 2.23.79 4 2.5 4H6v-2.5c0-1.93 1.57-3.5 3.5-3.5h5c1.38 0 2.5-1.12 2.5-2.5v-3C17 3.57 14.43 2 12 2zm-1.5 2.5a1 1 0 110 2 1 1 0 010-2z"/>
+                                    <path d="M18 8v2.5c0 1.93-1.57 3.5-3.5 3.5h-5c-1.38 0-2.5 1.12-2.5 2.5v3c0 1.93 2.57 3.5 5 3.5 6.52 0 6-2.02 6-3.5V17h-6v-1h7.5c1.71 0 2.5-1.77 2.5-4 0-2.23-.79-4-2.5-4H18zm-4.5 9.5a1 1 0 110 2 1 1 0 010-2z"/>
+                                </svg>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon fastapi">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon sklearn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="12" cy="12" r="3"/>
+                                    <circle cx="12" cy="5" r="2"/>
+                                    <circle cx="19" cy="12" r="2"/>
+                                    <circle cx="12" cy="19" r="2"/>
+                                    <circle cx="5" cy="12" r="2"/>
+                                </svg>
+                            </div>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon pandas">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <rect x="4" y="2" width="4" height="8" rx="1"/>
+                                    <rect x="4" y="14" width="4" height="8" rx="1"/>
+                                    <rect x="10" y="6" width="4" height="12" rx="1"/>
+                                    <rect x="16" y="2" width="4" height="8" rx="1"/>
+                                    <rect x="16" y="14" width="4" height="8" rx="1"/>
+                                </svg>
+                            </div>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon js">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.002.003zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"/>
+                                </svg>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon jupyter">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="4.5" cy="12" r="2.5"/>
+                                    <circle cx="19.5" cy="5" r="2.5"/>
+                                    <circle cx="19.5" cy="19" r="2.5"/>
+                                </svg>
+                            </div>
+                            <span>Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Architecture Cards -->
+            <div class="arch-grid">
+                <div class="arch-card" style="--delay: 0">
+                    <div class="arch-icon data-science">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div class="arch-content">
+                        <h4>Data Science</h4>
+                        <p>EDA, feature engineering, model training with scikit-learn</p>
+                        <div class="arch-tags">
+                            <span>Jupyter</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="arch-card" style="--delay: 1">
+                    <div class="arch-icon backend">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <path d="M8 21h8M12 17v4"/>
+                            <path d="M6 8h.01M9 8h.01"/>
+                        </svg>
+                    </div>
+                    <div class="arch-content">
+                        <h4>Backend API</h4>
+                        <p>RESTful endpoints with FastAPI, Pydantic validation</p>
+                        <div class="arch-tags">
+                            <span>FastAPI</span>
+                            <span>Uvicorn</span>
+                            <span>Joblib</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="arch-card" style="--delay: 2">
+                    <div class="arch-icon frontend">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/>
+                            <line x1="12" y1="22" x2="12" y2="15.5"/>
+                            <polyline points="22 8.5 12 15.5 2 8.5"/>
+                        </svg>
+                    </div>
+                    <div class="arch-content">
+                        <h4>Frontend UI</h4>
+                        <p>Dynamic forms, real-time predictions, responsive design</p>
+                        <div class="arch-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>ES6+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Goals Section -->
+        <section class="goals-section">
+            <div class="goals-card">
+                <div class="goals-header">
+                    <span class="section-tag">// project_goals</span>
+                    <h3>What We're Building</h3>
+                </div>
+                <div class="goals-grid">
+                    <div class="goal-item">
+                        <div class="goal-number">01</div>
+                        <div class="goal-content">
+                            <h4>Early Intervention</h4>
+                            <p>Identify at-risk students before exams through predictive analytics</p>
+                        </div>
+                    </div>
+                    <div class="goal-item">
+                        <div class="goal-number">02</div>
+                        <div class="goal-content">
+                            <h4>Data-Driven Decisions</h4>
+                            <p>Empower educators with actionable insights for personalized support</p>
+                        </div>
+                    </div>
+                    <div class="goal-item">
+                        <div class="goal-number">03</div>
+                        <div class="goal-content">
+                            <h4>MLOps Excellence</h4>
+                            <p>Demonstrate end-to-end ML pipeline from data to deployment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prediction Section -->
+        <section class="predict-section" id="predict">
+            <div class="section-header center">
+                <span class="section-tag">// try_it_out</span>
+                <h3>Make a Prediction</h3>
+                <p>Enter student information below to predict their exam score</p>
+            </div>
+
+            <div class="content-grid">
+                <!-- Input Form Panel -->
+                <section class="panel form-panel">
+                    <div class="panel-header">
+                        <div class="panel-title">
+                            <span class="panel-icon">📝</span>
+                            <h4>Student Information</h4>
+                        </div>
+                        <span class="panel-badge">Input</span>
+                    </div>
+                    
+                    <form id="predictionForm" class="prediction-form">
+                        <div id="formFields" class="form-fields">
+                            <div class="loading-fields">
+                                <div class="spinner"></div>
+                                <span>Loading form fields...</span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" id="submitBtn" disabled>
+                            <span class="btn-text">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                </svg>
+                                Predict Score
+                            </span>
+                            <span class="btn-loading">
+                                <div class="spinner-small"></div>
+                                Analyzing...
+                            </span>
+                        </button>
+                    </form>
+                </section>
+
+                <!-- Results Panel -->
+                <section class="panel results-panel">
+                    <div class="panel-header">
+                        <div class="panel-title">
+                            <span class="panel-icon">🎯</span>
+                            <h4>Prediction Results</h4>
+                        </div>
+                        <span class="panel-badge">Output</span>
+                    </div>
+
+                    <!-- Initial State -->
+                    <div id="resultsInitial" class="results-state results-initial active">
+                        <div class="empty-state">
+                            <div class="empty-icon">
+                                <svg viewBox="0 0 80 80" fill="none">
+                                    <circle cx="40" cy="40" r="35" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4" opacity="0.4"/>
+                                    <circle cx="40" cy="40" r="25" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3" opacity="0.3"/>
+                                    <circle cx="40" cy="40" r="15" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+                                    <circle cx="40" cy="40" r="4" fill="currentColor" opacity="0.6"/>
+                                </svg>
+                            </div>
+                            <h5>Ready for Analysis</h5>
+                            <p>Fill out the student information form and click "Predict Score" to see results</p>
+                        </div>
+                    </div>
+
+                    <!-- Loading State -->
+                    <div id="resultsLoading" class="results-state results-loading">
+                        <div class="loading-state">
+                            <div class="loading-rings">
+                                <div class="ring ring-1"></div>
+                                <div class="ring ring-2"></div>
+                                <div class="ring ring-3"></div>
+                            </div>
+                            <div class="loading-icon">
+                                <svg viewBox="0 0 40 40" fill="none">
+                                    <path d="M20 5V15L25 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+                                </svg>
+                            </div>
+                            <h5>Processing...</h5>
+                            <p>Our ML model is analyzing the data</p>
+                        </div>
+                    </div>
+
+                    <!-- Success State -->
+                    <div id="resultsSuccess" class="results-state results-success">
+                        <div class="score-display">
+                            <div class="score-ring-container">
+                                <svg class="score-ring-svg" viewBox="0 0 200 200">
+                                    <circle cx="100" cy="100" r="85" class="score-ring-bg"/>
+                                    <circle cx="100" cy="100" r="85" class="score-ring-progress" id="scoreRing"/>
+                                </svg>
+                                <div class="score-value">
+                                    <span class="score-number" id="scoreNumber">--</span>
+                                    <span class="score-label">predicted</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="score-badge" id="scoreBadge">
+                            <span class="badge-text" id="badgeText">--</span>
+                        </div>
+                        <div class="score-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Model Version</span>
+                                <span class="detail-value" id="modelVersion">--</span>
+                            </div>
+                        </div>
+                        <div class="score-interpretation" id="scoreInterpretation"></div>
+                        <button type="button" class="reset-btn" id="resetBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M1 4v6h6M23 20v-6h-6"/>
+                                <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
+                            </svg>
+                            New Prediction
+                        </button>
+                    </div>
+
+                    <!-- Error State -->
+                    <div id="resultsError" class="results-state results-error">
+                        <div class="error-state">
+                            <div class="error-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <line x1="12" y1="8" x2="12" y2="12"/>
+                                    <line x1="12" y1="16" x2="12.01" y2="16"/>
+                                </svg>
+                            </div>
+                            <h5>Something Went Wrong</h5>
+                            <p id="errorMessage">Unable to get prediction. Please try again.</p>
+                            <button type="button" class="retry-btn" id="retryBtn">
+                                Try Again
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Score Reference -->
+            <div class="score-reference">
+                <div class="reference-header">Score Categories</div>
+                <div class="reference-items">
+                    <div class="ref-item excellent"><span>90-100</span> Excellent</div>
+                    <div class="ref-item good"><span>80-89</span> Good</div>
+                    <div class="ref-item average"><span>70-79</span> Average</div>
+                    <div class="ref-item below-average"><span>60-69</span> Below Avg</div>
+                    <div class="ref-item needs-improvement"><span>0-59</span> Needs Help</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="footer-orbit">
+                    <div class="orbit-mini"></div>
+                </div>
+                <span>Student Score Predictor</span>
+            </div>
+            <p>A machine learning portfolio project demonstrating end-to-end MLOps</p>
+            <div class="footer-links">
+                <a href="https://kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                    Dataset
+                </a>
+                <a href="#" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
+                    GitHub
+                </a>
+            </div>
+            <p class="copyright">© 2025 Portfolio Project</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
