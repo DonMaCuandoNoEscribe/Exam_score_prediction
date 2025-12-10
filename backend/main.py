@@ -9,13 +9,13 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from schemas import (
+from backend.schemas import (
     PredictionRequest,
     PredictionResponse,
     HealthResponse,
     ErrorResponse,
 )
-from model_service import model_service, get_category
+from backend.model_service import model_service, get_category
 
 
 @asynccontextmanager
