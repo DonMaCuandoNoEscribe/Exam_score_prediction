@@ -316,7 +316,7 @@ function buildFormFields(schema) {
     
     numerical_features.forEach((feature) => {
         const { name, min, max, type } = feature;
-        const step = type === 'float' ? '0.1' : '1';
+        const step = type === 'float' ? 'any' : '1';
         
         html += `
             <div class="form-group">
