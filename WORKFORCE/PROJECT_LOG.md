@@ -55,7 +55,7 @@
 
 ## Next Actions (Priority Order)
 
-1. **ML Ops:** Export `model/model.joblib` + `feature_config.json`
+1. **Backend:** Export `model/model.joblib` + `feature_config.json`
 2. **Backend:** Build FastAPI with endpoints per API_SPEC.md
 3. **Integration:** Connect frontend → backend → model
 
