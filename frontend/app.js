@@ -5,7 +5,8 @@
 
 // Configuration
 const CONFIG = {
-    API_BASE_URL: 'http://localhost:8000',
+    // Use relative URL - works both locally and when deployed (backend serves frontend)
+    API_BASE_URL: '',
     ENDPOINTS: {
         HEALTH: '/health',
         SCHEMA: '/features/schema',
