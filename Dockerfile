@@ -1,4 +1,4 @@
-# Student Score Predictor - Docker Image for HF Spaces
+# Student Score Predictor - Docker Image
 FROM python:3.10-slim
 
 # Set working directory
@@ -16,9 +16,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY . .
 
-# Expose port (HF Spaces uses 7860)
-EXPOSE 7860
+# Expose port
+EXPOSE 10000
 
-# Run FastAPI with uvicorn
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "7860"]
-
+# Run FastAPI with uvicorn (Render uses PORT env var, default 10000)
+CMD uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-10000}

@@ -1,25 +1,19 @@
----
-title: Student Score Predictor
-emoji: 📊
-colorFrom: blue
-colorTo: cyan
-sdk: docker
-pinned: false
-license: mit
----
-
-# Student Exam Score Predictor
+# 🎓 Student Exam Score Predictor
 
 Predict student exam performance using machine learning. Built as a portfolio project demonstrating end-to-end MLOps.
 
-## Features
+## 🚀 Live Demo
+
+**Try it:** [Student Score Predictor](https://your-app.onrender.com) *(Update with your Render URL)*
+
+## ✨ Features
 
 - 🎯 **ML Model**: ElasticNet regression (R² = 0.73, MAE = 7.8)
 - 🖥️ **Frontend**: Modern dark theme with animated UI
 - ⚡ **Backend**: FastAPI serving predictions
-- 🐳 **Deployment**: Docker on Hugging Face Spaces
+- 🐳 **Deployment**: Docker on Render
 
-## Model Details
+## 📊 Model Details
 
 | Metric | Value |
 |--------|-------|
@@ -30,22 +24,59 @@ Predict student exam performance using machine learning. Built as a portfolio pr
 | Features | 29 (20 selected) |
 | Training Data | 20,000 students |
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **ML**: Python, Scikit-learn, Pandas
 - **Backend**: FastAPI, Pydantic, Uvicorn
 - **Frontend**: HTML, CSS, JavaScript
-- **Deploy**: Docker, Hugging Face Spaces
+- **Deploy**: Docker, Render
 
-## Usage
+## 📁 Project Structure
 
-Enter student characteristics in the form and get an instant exam score prediction with performance category.
+```
+├── backend/           # FastAPI application
+│   ├── main.py        # API endpoints
+│   ├── schemas.py     # Pydantic models
+│   └── model_service.py
+├── frontend/          # Web interface
+│   ├── index.html
+│   ├── styles.css
+│   └── app.js
+├── model/             # Trained ML model
+│   ├── model.joblib
+│   └── feature_config.json
+├── Dockerfile
+└── requirements.txt
+```
 
-## Author
+## 🏃 Run Locally
 
-Built by [DonMaCuandoNoEscribe](https://huggingface.co/DonMaCuandoNoEscribe)
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+uvicorn backend.main:app --reload --port 8000
+
+# Open http://localhost:8000
+```
+
+## 📦 Deploy to Render
+
+1. Fork this repo
+2. Create new Web Service on Render
+3. Connect GitHub repo
+4. Select Docker environment
+5. Deploy!
+
+## 📄 Dataset
+
+Based on [Kaggle Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset)
+
+## 👤 Author
+
+Built by [DonMaCuandoNoEscribe](https://github.com/DonMaCuandoNoEscribe)
 
 ---
 
 *Portfolio project demonstrating MLOps best practices*
-
