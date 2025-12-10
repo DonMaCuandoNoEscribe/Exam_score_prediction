@@ -1,6 +1,6 @@
 /**
  * Student Score Predictor - Frontend Application
- * Handles dynamic form generation, API communication, and result display
+ * Handles pill navigation, dynamic form generation, API communication, and results
  */
 
 // Configuration
@@ -13,15 +13,18 @@ const CONFIG = {
     }
 };
 
-// State Management
+// State
 const state = {
     schema: null,
     isLoading: false,
-    serverOnline: false
+    serverOnline: false,
+    currentPage: 'about'
 };
 
 // DOM Elements
 const elements = {
+    pillNav: document.getElementById('pillNav'),
+    pillSlider: document.getElementById('pillSlider'),
     serverStatus: document.getElementById('serverStatus'),
     formFields: document.getElementById('formFields'),
     predictionForm: document.getElementById('predictionForm'),
@@ -42,12 +45,85 @@ const elements = {
 };
 
 // =============================================================================
-// Utility Functions
+// PILL NAVIGATION - ReactBits Inspired
 // =============================================================================
 
 /**
- * Format feature name for display (snake_case to Title Case)
+ * Initialize pill navigation with sliding indicator
  */
+function initPillNav() {
+    const pillBtns = document.querySelectorAll('.pill-btn');
+    
+    // Set initial slider position
+    updatePillSlider(document.querySelector('.pill-btn.active'));
+    
+    // Add click handlers
+    pillBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const page = btn.dataset.page;
+            navigateTo(page);
+        });
+    });
+    
+    // Handle window resize
+    window.addEventListener('resize', () => {
+        const activeBtn = document.querySelector('.pill-btn.active');
+        if (activeBtn) updatePillSlider(activeBtn);
+    });
+}
+
+/**
+ * Navigate to a page
+ */
+function navigateTo(pageName) {
+    // Update state
+    state.currentPage = pageName;
+    
+    // Update pill buttons
+    document.querySelectorAll('.pill-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.page === pageName);
+    });
+    
+    // Update slider
+    const activeBtn = document.querySelector(`.pill-btn[data-page="${pageName}"]`);
+    if (activeBtn) updatePillSlider(activeBtn);
+    
+    // Update pages
+    document.querySelectorAll('.page').forEach(page => {
+        page.classList.remove('active');
+    });
+    
+    const targetPage = document.getElementById(`page-${pageName}`);
+    if (targetPage) {
+        targetPage.classList.add('active');
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+}
+
+/**
+ * Update pill slider position and size
+ */
+function updatePillSlider(activeBtn) {
+    if (!activeBtn || !elements.pillSlider) return;
+    
+    const navRect = elements.pillNav.getBoundingClientRect();
+    const btnRect = activeBtn.getBoundingClientRect();
+    
+    const left = btnRect.left - navRect.left;
+    const width = btnRect.width;
+    
+    elements.pillSlider.style.left = `${left}px`;
+    elements.pillSlider.style.width = `${width}px`;
+}
+
+// Make navigateTo globally accessible for onclick handlers
+window.navigateTo = navigateTo;
+
+// =============================================================================
+// Utility Functions
+// =============================================================================
+
 function formatFeatureName(name) {
     return name
         .split('_')
@@ -55,9 +131,6 @@ function formatFeatureName(name) {
         .join(' ');
 }
 
-/**
- * Get color for score category
- */
 function getCategoryClass(category) {
     const categoryMap = {
         'Excellent': 'excellent',
@@ -69,32 +142,23 @@ function getCategoryClass(category) {
     return categoryMap[category] || 'average';
 }
 
-/**
- * Get interpretation text based on score category
- */
 function getInterpretation(score, category) {
     const interpretations = {
-        'Excellent': `This student is predicted to achieve an <strong>excellent score of ${score}</strong>. They demonstrate strong potential and are likely excelling in their study habits, attendance, and engagement. Consider providing advanced learning opportunities or leadership roles.`,
-        'Good': `This student is predicted to achieve a <strong>good score of ${score}</strong>. They are performing above average and showing solid academic progress. Encouragement and targeted support in specific areas could help them reach the excellent tier.`,
-        'Average': `This student is predicted to achieve an <strong>average score of ${score}</strong>. They are meeting baseline expectations. Consider implementing additional study strategies, tutoring sessions, or engagement activities to boost performance.`,
-        'Below Average': `This student is predicted to achieve a <strong>below average score of ${score}</strong>. Early intervention is recommended. Review their study habits, attendance patterns, and consider personalized support to address any learning gaps.`,
-        'Needs Improvement': `This student is predicted to achieve a <strong>score of ${score}</strong>, indicating they need significant support. Immediate intervention is strongly recommended, including one-on-one tutoring, parental involvement, and identifying any underlying challenges affecting performance.`
+        'Excellent': `Predicted <strong>${score}</strong> — Excellent! This student shows strong potential. Consider advanced opportunities.`,
+        'Good': `Predicted <strong>${score}</strong> — Good performance. Targeted support could help reach excellence.`,
+        'Average': `Predicted <strong>${score}</strong> — Meeting expectations. Additional study strategies recommended.`,
+        'Below Average': `Predicted <strong>${score}</strong> — Early intervention recommended. Review study habits and attendance.`,
+        'Needs Improvement': `Predicted <strong>${score}</strong> — Significant support needed. One-on-one tutoring recommended.`
     };
     return interpretations[category] || `Predicted score: ${score}`;
 }
 
-/**
- * Calculate the stroke-dashoffset for the score ring
- */
 function calculateRingOffset(score) {
     const circumference = 534; // 2 * π * 85
     const percentage = Math.min(Math.max(score, 0), 100) / 100;
     return circumference * (1 - percentage);
 }
 
-/**
- * Get ring color based on score
- */
 function getRingColor(score) {
     if (score >= 90) return 'var(--excellent)';
     if (score >= 80) return 'var(--good)';
@@ -107,9 +171,6 @@ function getRingColor(score) {
 // API Functions
 // =============================================================================
 
-/**
- * Check server health status
- */
 async function checkServerHealth() {
     try {
         const response = await fetch(`${CONFIG.API_BASE_URL}${CONFIG.ENDPOINTS.HEALTH}`, {
@@ -132,9 +193,6 @@ async function checkServerHealth() {
     return false;
 }
 
-/**
- * Fetch feature schema from API
- */
 async function fetchSchema() {
     try {
         const response = await fetch(`${CONFIG.API_BASE_URL}${CONFIG.ENDPOINTS.SCHEMA}`, {
@@ -155,9 +213,6 @@ async function fetchSchema() {
     }
 }
 
-/**
- * Submit prediction request
- */
 async function submitPrediction(features) {
     const response = await fetch(`${CONFIG.API_BASE_URL}${CONFIG.ENDPOINTS.PREDICT}`, {
         method: 'POST',
@@ -179,19 +234,16 @@ async function submitPrediction(features) {
 }
 
 // =============================================================================
-// UI Update Functions
+// UI Functions
 // =============================================================================
 
-/**
- * Update server status indicator
- */
 function updateServerStatus(online, version = null) {
     const statusText = elements.serverStatus.querySelector('.status-text');
     
     if (online) {
         elements.serverStatus.classList.add('online');
         elements.serverStatus.classList.remove('offline');
-        statusText.textContent = version ? `Model v${version}` : 'Online';
+        statusText.textContent = version ? `v${version}` : 'Online';
     } else {
         elements.serverStatus.classList.add('offline');
         elements.serverStatus.classList.remove('online');
@@ -199,9 +251,6 @@ function updateServerStatus(online, version = null) {
     }
 }
 
-/**
- * Show specific results state
- */
 function showResultsState(stateName) {
     const states = ['Initial', 'Loading', 'Success', 'Error'];
     states.forEach(s => {
@@ -212,44 +261,30 @@ function showResultsState(stateName) {
     });
 }
 
-/**
- * Display prediction results
- */
 function displayResults(data) {
     const { predicted_score, score_category, model_version } = data;
     const score = Math.round(predicted_score * 10) / 10;
     
-    // Update score ring
     elements.scoreRing.style.strokeDashoffset = calculateRingOffset(score);
     elements.scoreRing.style.stroke = getRingColor(score);
     
-    // Animate score number
-    animateNumber(elements.scoreNumber, 0, score, 1500);
+    animateNumber(elements.scoreNumber, 0, score, 1200);
     
-    // Update badge
     const categoryClass = getCategoryClass(score_category);
     elements.scoreBadge.className = `score-badge ${categoryClass}`;
     elements.badgeText.textContent = score_category;
     
-    // Update details
     elements.modelVersion.textContent = model_version || '1.0.0';
     elements.scoreInterpretation.innerHTML = getInterpretation(score, score_category);
     
-    // Show success state
     showResultsState('success');
 }
 
-/**
- * Display error message
- */
 function displayError(message) {
     elements.errorMessage.textContent = message;
     showResultsState('error');
 }
 
-/**
- * Animate number counter
- */
 function animateNumber(element, start, end, duration) {
     const startTime = performance.now();
     const difference = end - start;
@@ -257,8 +292,6 @@ function animateNumber(element, start, end, duration) {
     function update(currentTime) {
         const elapsed = currentTime - startTime;
         const progress = Math.min(elapsed / duration, 1);
-        
-        // Ease out cubic
         const eased = 1 - Math.pow(1 - progress, 3);
         const current = start + (difference * eased);
         
@@ -273,27 +306,23 @@ function animateNumber(element, start, end, duration) {
 }
 
 // =============================================================================
-// Form Generation
+// Form Functions
 // =============================================================================
 
-/**
- * Build form fields from schema
- */
 function buildFormFields(schema) {
     const { numerical_features = [], categorical_features = [] } = schema;
     
     let html = '';
     
-    // Build numerical fields
-    numerical_features.forEach((feature, index) => {
+    numerical_features.forEach((feature) => {
         const { name, min, max, type } = feature;
         const step = type === 'float' ? '0.1' : '1';
         
         html += `
-            <div class="form-group" style="animation-delay: ${index * 50}ms">
+            <div class="form-group">
                 <label for="${name}">
                     ${formatFeatureName(name)}
-                    <span class="field-type">${type === 'float' ? 'Decimal' : 'Number'}</span>
+                    <span class="field-type">${type === 'float' ? 'decimal' : 'int'}</span>
                 </label>
                 <input 
                     type="number" 
@@ -302,7 +331,7 @@ function buildFormFields(schema) {
                     min="${min}" 
                     max="${max}" 
                     step="${step}"
-                    placeholder="Enter ${formatFeatureName(name).toLowerCase()}"
+                    placeholder="${min} - ${max}"
                     required
                 >
                 <span class="form-hint">Range: ${min} - ${max}</span>
@@ -310,21 +339,19 @@ function buildFormFields(schema) {
         `;
     });
     
-    // Build categorical fields
-    categorical_features.forEach((feature, index) => {
+    categorical_features.forEach((feature) => {
         const { name, options } = feature;
-        const delay = (numerical_features.length + index) * 50;
         
-        let optionsHtml = `<option value="" disabled selected>Select ${formatFeatureName(name).toLowerCase()}</option>`;
+        let optionsHtml = `<option value="" disabled selected>Select...</option>`;
         options.forEach(option => {
             optionsHtml += `<option value="${option}">${option}</option>`;
         });
         
         html += `
-            <div class="form-group" style="animation-delay: ${delay}ms">
+            <div class="form-group">
                 <label for="${name}">
                     ${formatFeatureName(name)}
-                    <span class="field-type">Selection</span>
+                    <span class="field-type">select</span>
                 </label>
                 <select id="${name}" name="${name}" required>
                     ${optionsHtml}
@@ -336,11 +363,7 @@ function buildFormFields(schema) {
     return html;
 }
 
-/**
- * Show fallback form when API is unavailable
- */
 function showFallbackForm() {
-    // Demo schema based on the project's expected features
     const demoSchema = {
         numerical_features: [
             { name: 'hours_studied', type: 'float', min: 0, max: 24 },
@@ -362,29 +385,18 @@ function showFallbackForm() {
     elements.formFields.innerHTML = buildFormFields(demoSchema);
     elements.submitBtn.disabled = true;
     
-    // Add notice that server is offline
     const notice = document.createElement('div');
     notice.className = 'form-notice';
-    notice.innerHTML = `
-        <p>⚠️ Backend server is offline. Form is displayed for preview only.</p>
-    `;
+    notice.innerHTML = `<p>⚠️ Backend offline. Form shown for preview only.</p>`;
     elements.formFields.insertAdjacentElement('beforebegin', notice);
 }
 
-// =============================================================================
-// Form Handling
-// =============================================================================
-
-/**
- * Collect form data
- */
 function collectFormData() {
     const formData = new FormData(elements.predictionForm);
     const features = {};
     
     if (!state.schema) return features;
     
-    // Process numerical features
     state.schema.numerical_features?.forEach(feature => {
         const value = formData.get(feature.name);
         if (value !== null && value !== '') {
@@ -392,7 +404,6 @@ function collectFormData() {
         }
     });
     
-    // Process categorical features
     state.schema.categorical_features?.forEach(feature => {
         const value = formData.get(feature.name);
         if (value !== null && value !== '') {
@@ -403,9 +414,6 @@ function collectFormData() {
     return features;
 }
 
-/**
- * Handle form submission
- */
 async function handleSubmit(event) {
     event.preventDefault();
     
@@ -422,7 +430,7 @@ async function handleSubmit(event) {
         displayResults(result);
     } catch (error) {
         console.error('Prediction error:', error);
-        displayError(error.message || 'Unable to get prediction. Please try again.');
+        displayError(error.message || 'Unable to get prediction.');
     } finally {
         state.isLoading = false;
         elements.submitBtn.classList.remove('loading');
@@ -430,9 +438,6 @@ async function handleSubmit(event) {
     }
 }
 
-/**
- * Reset form and results
- */
 function resetForm() {
     elements.predictionForm.reset();
     elements.scoreRing.style.strokeDashoffset = 534;
@@ -444,25 +449,22 @@ function resetForm() {
 // Initialization
 // =============================================================================
 
-/**
- * Initialize the application
- */
 async function init() {
-    console.log('🎓 Student Score Predictor initialized');
+    console.log('🎓 Student Score Predictor v2.0');
     
-    // Set up event listeners
+    // Initialize pill navigation
+    initPillNav();
+    
+    // Set up form event listeners
     elements.predictionForm.addEventListener('submit', handleSubmit);
     elements.resetBtn.addEventListener('click', resetForm);
-    elements.retryBtn.addEventListener('click', () => {
-        showResultsState('initial');
-    });
+    elements.retryBtn.addEventListener('click', () => showResultsState('initial'));
     
     // Check server health
     const serverOnline = await checkServerHealth();
     
     if (serverOnline) {
         try {
-            // Fetch schema and build form
             const schema = await fetchSchema();
             elements.formFields.innerHTML = buildFormFields(schema);
             elements.submitBtn.disabled = false;
@@ -471,7 +473,6 @@ async function init() {
             showFallbackForm();
         }
     } else {
-        // Show fallback form for demo/preview
         showFallbackForm();
     }
     
@@ -480,11 +481,9 @@ async function init() {
         const wasOnline = state.serverOnline;
         await checkServerHealth();
         
-        // If server came online, try to load schema
         if (!wasOnline && state.serverOnline && !elements.formFields.querySelector('.form-group')) {
             try {
                 const schema = await fetchSchema();
-                // Remove any notice
                 const notice = document.querySelector('.form-notice');
                 if (notice) notice.remove();
                 
@@ -494,13 +493,12 @@ async function init() {
                 console.error('Failed to load schema on reconnect:', error);
             }
         }
-    }, 30000); // Check every 30 seconds
+    }, 30000);
 }
 
-// Start the application when DOM is ready
+// Start
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
 } else {
     init();
 }
-
