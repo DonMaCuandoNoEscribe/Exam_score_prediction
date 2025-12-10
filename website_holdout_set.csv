@@ -1,0 +1,1001 @@
+student_id,age,gender,course,study_hours,class_attendance,internet_access,sleep_hours,sleep_quality,study_method,facility_rating,exam_difficulty,exam_score
+10651,21,other,bba,2.01,48.2,yes,4.9,poor,mixed,medium,easy,31.1
+2042,24,female,bba,6.56,45.9,no,4.4,good,coaching,high,hard,81.6
+8669,17,other,bba,4.27,41.0,yes,8.9,good,self-study,low,moderate,68.0
+1115,18,female,bba,7.28,91.7,yes,5.9,good,coaching,high,easy,100.0
+13903,22,female,bca,7.13,64.3,yes,9.5,good,online videos,low,moderate,84.8
+11964,21,male,bba,0.78,45.4,yes,9.1,good,self-study,medium,easy,52.8
+11073,20,female,bca,4.45,54.7,yes,5.2,good,online videos,low,moderate,53.1
+3003,24,other,ba,5.53,69.5,yes,6.0,good,mixed,medium,easy,81.0
+19772,23,male,diploma,3.54,62.7,yes,9.2,good,group study,high,moderate,72.6
+8116,24,female,b.tech,0.33,48.5,yes,8.9,poor,online videos,medium,moderate,25.4
+3526,18,male,b.sc,2.53,76.8,yes,8.7,poor,online videos,high,moderate,70.4
+7880,17,other,b.com,1.9,43.8,no,9.9,average,self-study,low,moderate,40.9
+16442,19,other,bba,3.86,69.3,yes,8.2,poor,self-study,high,easy,64.8
+16297,18,male,bba,5.82,42.9,yes,5.7,good,self-study,medium,hard,55.9
+12567,20,other,b.com,7.89,65.1,yes,5.9,good,self-study,medium,moderate,97.5
+5253,22,female,ba,5.4,99.4,yes,6.9,poor,mixed,high,easy,83.7
+19394,20,other,b.tech,6.13,70.5,yes,9.2,good,online videos,high,moderate,83.5
+16797,23,female,b.sc,7.91,42.1,yes,7.2,poor,self-study,high,moderate,75.6
+8095,19,other,b.sc,7.91,53.1,yes,4.4,poor,self-study,medium,hard,55.3
+323,21,male,b.com,0.49,85.1,yes,4.7,average,mixed,low,moderate,46.2
+9924,18,male,b.com,5.11,98.3,yes,9.3,good,coaching,low,easy,89.1
+7460,23,other,b.tech,0.52,78.7,yes,6.5,poor,coaching,medium,moderate,46.4
+19025,18,other,ba,0.31,81.1,yes,7.0,poor,self-study,low,moderate,39.0
+17554,20,male,ba,3.61,55.9,yes,7.7,good,online videos,high,easy,68.8
+9120,22,male,b.sc,3.44,87.2,yes,7.9,good,online videos,low,moderate,71.8
+16422,20,male,b.com,3.51,83.4,yes,9.9,average,mixed,high,moderate,79.3
+16061,17,other,b.com,0.45,75.9,yes,6.7,average,mixed,high,easy,44.2
+10121,21,male,bba,3.44,87.7,yes,6.6,good,coaching,low,easy,76.4
+19056,17,other,b.com,5.13,66.1,yes,8.2,average,coaching,high,easy,91.0
+3650,22,other,b.sc,5.7,79.9,yes,7.4,good,group study,high,easy,76.0
+3942,19,other,ba,3.38,94.2,yes,4.1,good,self-study,medium,moderate,74.5
+17881,22,male,bba,6.61,88.7,yes,5.5,average,group study,medium,moderate,73.5
+16676,17,other,bba,3.86,59.8,yes,5.5,poor,coaching,high,moderate,51.4
+12631,17,female,ba,2.45,40.6,no,9.5,average,mixed,low,hard,53.3
+11444,17,male,bca,5.9,47.4,yes,5.0,average,self-study,high,moderate,50.6
+12158,17,male,b.com,4.81,82.7,yes,8.2,good,mixed,low,moderate,87.5
+13836,22,male,b.sc,4.09,72.9,no,9.5,poor,online videos,medium,moderate,68.3
+3435,18,female,b.sc,2.17,93.6,yes,7.4,poor,mixed,low,hard,51.7
+18740,23,female,b.tech,2.38,57.7,yes,5.5,good,coaching,high,moderate,57.8
+17408,19,male,bba,0.67,68.3,yes,7.7,good,group study,high,easy,54.1
+15441,20,other,b.sc,4.48,52.0,yes,6.1,poor,self-study,high,easy,49.4
+10407,19,female,bba,3.95,63.1,yes,7.1,average,coaching,low,easy,65.4
+6518,21,male,diploma,4.88,49.6,yes,9.2,average,mixed,high,moderate,70.7
+972,20,female,diploma,5.37,47.6,no,6.5,poor,online videos,low,easy,40.3
+16488,19,female,bba,2.06,62.6,yes,5.2,average,coaching,low,moderate,39.6
+19731,24,other,bca,6.45,56.3,yes,4.6,poor,coaching,low,easy,84.0
+13138,21,other,b.com,3.54,90.8,no,8.5,average,group study,high,moderate,69.8
+3670,18,male,ba,5.35,42.8,yes,9.4,poor,group study,high,easy,66.5
+15984,24,male,bca,7.91,88.4,yes,9.1,average,coaching,high,moderate,100.0
+4059,18,other,bba,5.35,61.4,no,9.8,poor,mixed,medium,hard,62.1
+14977,20,other,bba,0.77,89.4,yes,7.3,poor,coaching,low,moderate,37.0
+15699,17,other,b.com,2.98,99.4,yes,9.5,poor,online videos,low,moderate,40.0
+13830,22,other,diploma,0.73,71.1,no,5.9,good,online videos,low,moderate,40.3
+13420,18,female,bca,3.81,93.0,yes,5.3,average,group study,medium,hard,80.1
+961,18,male,bca,0.91,99.4,yes,5.2,average,coaching,medium,moderate,41.7
+17745,19,other,bba,3.51,46.9,yes,5.7,average,group study,high,moderate,49.6
+9865,22,female,b.com,2.21,91.7,yes,8.7,good,coaching,low,moderate,55.8
+11264,18,female,diploma,0.19,99.4,yes,9.7,good,mixed,medium,moderate,58.1
+15783,20,female,diploma,4.12,78.9,no,9.1,average,mixed,high,hard,68.0
+17197,22,other,b.sc,2.35,67.6,yes,9.5,poor,mixed,low,hard,54.9
+7555,21,female,bba,4.85,76.9,yes,9.5,poor,coaching,high,easy,100.0
+10499,22,other,bba,6.18,57.0,yes,9.9,poor,mixed,high,moderate,90.7
+17060,19,male,b.sc,6.92,55.7,yes,8.2,good,online videos,high,moderate,78.5
+17929,22,female,b.sc,6.61,49.8,yes,7.1,good,group study,high,hard,80.0
+7086,24,male,bca,3.12,77.6,yes,5.8,poor,mixed,low,moderate,33.8
+14754,17,other,ba,0.96,95.8,yes,9.9,good,group study,medium,easy,70.4
+4520,20,other,b.tech,0.18,57.4,no,9.9,poor,online videos,low,moderate,26.4
+3025,19,other,b.tech,6.78,64.1,yes,6.0,poor,self-study,medium,hard,74.9
+12122,22,female,ba,4.05,55.4,yes,7.7,poor,online videos,high,moderate,52.2
+18495,24,male,b.com,7.01,91.0,no,9.1,average,online videos,low,moderate,91.2
+5484,23,male,ba,5.45,58.0,yes,5.7,average,coaching,high,moderate,76.2
+1420,20,other,bba,2.29,40.7,yes,7.6,average,coaching,medium,easy,30.9
+6210,22,female,b.sc,6.51,72.2,no,8.3,good,online videos,low,moderate,99.2
+10743,20,female,diploma,4.78,66.2,yes,7.3,average,online videos,medium,moderate,83.3
+16144,21,other,bba,4.7,79.4,yes,4.1,average,mixed,high,moderate,74.5
+17618,24,other,b.com,4.33,49.0,yes,6.9,good,self-study,medium,moderate,53.1
+14569,18,male,b.com,5.84,80.9,yes,6.2,good,coaching,high,hard,95.1
+981,21,other,b.com,0.26,43.6,no,7.3,good,coaching,low,moderate,43.2
+2784,23,female,bca,7.14,69.9,yes,7.4,poor,self-study,low,easy,74.0
+7714,23,other,ba,4.41,41.7,yes,5.9,poor,online videos,medium,moderate,62.4
+11519,17,other,diploma,0.62,97.8,yes,7.2,average,online videos,low,hard,47.6
+8601,23,female,b.sc,1.86,68.1,yes,7.1,good,online videos,medium,moderate,51.1
+11641,21,male,b.com,4.5,47.0,yes,7.3,poor,self-study,low,moderate,40.9
+18831,23,female,b.sc,7.74,78.4,yes,8.5,good,group study,high,easy,100.0
+12563,22,female,ba,4.97,94.6,no,9.9,poor,group study,high,hard,68.0
+12752,18,other,b.com,3.15,63.1,yes,5.8,good,mixed,medium,moderate,68.7
+6385,18,other,b.tech,6.67,69.3,yes,8.6,poor,mixed,medium,moderate,73.0
+4808,24,female,bba,4.14,57.3,yes,9.4,poor,group study,high,hard,49.5
+6196,20,male,b.com,2.1,43.2,yes,9.9,poor,coaching,low,moderate,43.1
+10649,19,other,bca,3.75,86.0,yes,8.2,average,mixed,medium,moderate,68.9
+7568,18,male,diploma,7.0,61.8,no,6.4,average,online videos,low,easy,63.1
+16398,20,other,diploma,1.14,77.8,yes,9.8,good,group study,low,moderate,54.8
+17525,23,female,b.com,2.38,86.7,yes,4.4,average,group study,low,moderate,46.7
+1347,23,male,diploma,5.03,94.6,yes,8.9,good,mixed,low,easy,72.1
+13125,17,female,diploma,2.11,77.5,no,8.4,average,self-study,medium,easy,43.1
+12674,20,male,bca,1.37,48.1,yes,9.3,good,coaching,low,hard,59.9
+15456,19,other,b.com,0.49,44.4,yes,7.2,average,self-study,medium,hard,33.9
+14002,22,female,ba,7.02,74.4,yes,7.6,average,online videos,high,easy,72.9
+18622,18,male,bca,6.72,77.8,yes,4.4,average,group study,medium,easy,54.2
+2120,22,male,b.tech,6.04,41.4,yes,7.8,poor,online videos,high,easy,67.8
+15305,20,female,bba,7.63,72.8,yes,6.2,average,online videos,high,easy,79.0
+4310,21,other,b.com,1.33,56.5,yes,8.2,average,self-study,high,moderate,47.5
+4485,20,male,bba,2.21,92.3,no,4.8,average,online videos,high,hard,58.3
+11014,18,other,ba,4.91,77.3,yes,6.9,good,mixed,low,moderate,75.1
+4771,19,female,b.sc,4.13,66.5,yes,7.1,poor,mixed,low,moderate,47.6
+2713,24,other,b.com,1.56,71.6,yes,8.4,good,mixed,low,moderate,49.2
+12187,18,other,ba,2.8,87.4,no,7.7,good,self-study,high,moderate,61.9
+16616,22,male,bba,4.54,81.2,yes,8.3,average,mixed,low,moderate,62.1
+10948,18,other,b.sc,7.74,57.2,yes,4.6,good,online videos,low,hard,63.3
+2546,20,other,bca,6.66,94.2,yes,4.4,good,self-study,high,hard,74.7
+12620,22,other,bba,0.85,66.8,yes,7.3,average,group study,low,easy,19.599
+9852,19,other,bca,1.18,41.1,yes,9.8,good,coaching,medium,easy,58.3
+4411,17,male,b.tech,2.0,78.0,yes,5.7,good,self-study,medium,moderate,50.5
+19648,20,other,bca,4.94,42.6,yes,7.1,poor,online videos,low,moderate,45.0
+12345,21,female,bca,0.64,93.0,yes,9.4,poor,mixed,high,easy,55.0
+12408,18,other,b.tech,4.27,46.1,yes,9.6,good,group study,medium,moderate,69.6
+9611,24,male,bca,7.63,92.8,yes,4.2,poor,self-study,medium,hard,80.3
+10719,19,other,b.com,1.68,67.2,yes,5.7,good,online videos,medium,hard,51.3
+7572,24,other,bba,3.56,60.1,yes,8.9,poor,coaching,low,easy,52.3
+3571,23,female,diploma,6.97,93.4,no,5.6,poor,group study,medium,easy,84.3
+8603,19,other,b.tech,1.99,43.0,no,4.4,poor,mixed,medium,moderate,49.3
+3560,20,other,ba,6.16,58.0,yes,8.3,average,group study,high,moderate,62.5
+4992,21,other,bca,4.73,44.1,yes,4.7,average,self-study,high,easy,60.8
+7440,20,male,ba,1.86,59.4,yes,6.8,good,mixed,low,easy,36.4
+9326,20,other,ba,1.15,70.4,yes,7.8,average,group study,medium,moderate,37.0
+2301,19,female,bba,0.2,81.1,yes,4.3,average,self-study,medium,easy,49.8
+7667,21,other,b.com,0.69,74.6,yes,9.0,poor,self-study,low,moderate,36.5
+5805,19,female,diploma,0.72,52.4,yes,4.3,good,coaching,high,moderate,47.6
+12023,24,female,bba,3.53,70.7,yes,6.7,average,group study,low,moderate,63.1
+15538,24,male,b.tech,0.46,89.9,yes,7.7,poor,coaching,high,easy,68.5
+9758,20,male,diploma,4.21,96.9,yes,5.0,good,coaching,low,easy,75.6
+12015,24,female,bba,7.82,63.9,yes,9.9,average,coaching,low,easy,100.0
+5212,18,other,ba,5.33,56.2,no,7.5,average,group study,high,moderate,57.9
+11549,19,female,b.com,0.53,46.6,yes,7.8,good,group study,low,easy,44.5
+12367,21,other,diploma,6.44,79.6,yes,9.6,good,mixed,medium,hard,95.6
+9271,24,female,ba,5.09,84.4,yes,8.1,poor,self-study,high,easy,58.0
+3976,22,male,b.tech,6.47,54.7,yes,5.9,average,group study,low,hard,57.6
+16091,23,female,bca,3.28,46.7,yes,7.4,poor,mixed,low,moderate,42.3
+17233,23,female,diploma,0.12,60.0,yes,9.2,poor,mixed,high,easy,39.6
+17444,20,other,b.tech,2.16,85.7,yes,7.0,average,self-study,high,moderate,69.5
+13657,22,male,b.com,0.14,84.1,yes,4.1,average,online videos,medium,hard,45.5
+15646,19,female,diploma,0.68,56.0,yes,6.1,good,mixed,medium,moderate,43.5
+2731,24,other,b.com,6.68,65.1,yes,5.5,good,group study,low,moderate,85.0
+3299,21,female,ba,5.17,41.2,yes,4.8,good,online videos,medium,easy,54.0
+8957,22,other,bca,3.94,58.6,yes,7.8,poor,self-study,high,moderate,68.7
+17411,18,other,ba,1.16,50.0,yes,7.1,average,self-study,high,moderate,28.1
+15156,17,male,b.sc,6.1,97.8,yes,5.1,average,coaching,low,easy,80.6
+17277,17,male,diploma,0.15,93.6,yes,4.7,poor,self-study,low,hard,26.7
+6704,17,other,b.tech,5.66,90.3,yes,6.1,average,coaching,low,hard,88.3
+1969,23,female,ba,5.87,78.9,yes,7.2,poor,online videos,medium,hard,59.6
+4937,24,male,bca,7.87,68.0,yes,4.7,average,mixed,low,easy,81.3
+2113,24,male,b.sc,0.77,71.7,yes,4.7,average,group study,low,moderate,45.7
+879,21,other,ba,2.94,70.2,yes,8.3,average,coaching,medium,easy,58.1
+19076,18,male,b.tech,3.29,47.4,yes,5.3,poor,group study,low,easy,49.2
+12990,23,male,diploma,5.11,67.2,yes,4.4,average,online videos,medium,hard,53.1
+7278,23,other,bba,6.74,90.9,yes,5.9,poor,self-study,medium,moderate,75.2
+5710,23,other,b.com,2.84,59.1,yes,6.5,poor,group study,medium,easy,34.6
+12079,23,male,bba,2.08,48.8,yes,8.2,poor,coaching,medium,easy,53.4
+6688,17,male,bca,4.12,76.4,yes,4.3,good,coaching,medium,moderate,83.4
+6419,24,other,diploma,7.37,97.3,yes,7.6,average,online videos,high,moderate,99.3
+10432,20,female,b.tech,3.95,55.7,no,7.4,poor,self-study,high,moderate,36.8
+9983,19,male,b.com,4.44,73.7,yes,4.1,poor,coaching,high,easy,60.5
+19074,23,other,bba,3.51,94.3,no,8.9,average,online videos,high,hard,79.7
+4630,19,other,ba,1.92,64.8,yes,5.2,good,coaching,low,easy,44.7
+8863,23,other,diploma,5.82,72.5,yes,6.8,good,online videos,medium,easy,68.5
+4668,18,male,ba,3.92,95.9,yes,9.6,good,group study,medium,hard,86.8
+14164,23,female,b.com,3.11,44.2,yes,7.5,average,group study,low,hard,42.3
+386,17,male,bba,7.69,91.5,yes,6.8,poor,group study,low,moderate,90.6
+4187,19,male,bba,3.52,46.1,yes,7.9,average,group study,low,moderate,45.5
+5346,20,male,b.sc,5.29,48.1,yes,7.1,average,mixed,low,moderate,56.5
+2196,23,other,ba,0.15,60.5,yes,8.2,poor,online videos,medium,easy,25.3
+14991,22,female,b.com,6.61,81.2,yes,5.5,poor,mixed,low,easy,86.2
+12635,19,female,b.com,0.77,59.6,yes,5.8,poor,group study,medium,easy,35.4
+1078,18,female,ba,5.89,88.6,yes,8.3,good,self-study,medium,moderate,89.2
+6287,17,other,bca,3.76,60.4,no,4.1,poor,self-study,medium,moderate,43.9
+5934,19,female,ba,1.04,85.8,yes,6.4,good,self-study,low,easy,31.6
+18513,19,female,b.tech,7.38,58.6,yes,7.1,average,self-study,high,easy,92.4
+19718,21,other,bca,5.9,80.3,yes,6.0,poor,self-study,low,hard,75.0
+13364,24,female,b.sc,3.32,69.9,yes,6.0,average,group study,high,moderate,40.4
+8073,22,other,b.sc,3.17,66.6,yes,9.9,good,coaching,medium,hard,78.6
+17021,19,female,b.sc,7.17,95.0,yes,9.5,average,self-study,high,moderate,85.9
+9544,20,other,b.sc,7.05,44.8,yes,9.5,good,online videos,medium,easy,84.2
+19095,24,female,b.com,3.8,45.3,yes,6.7,average,mixed,low,moderate,47.4
+13356,24,female,bca,2.72,88.7,yes,9.9,poor,online videos,high,hard,71.5
+18632,24,male,b.tech,2.62,93.3,no,9.8,good,coaching,high,easy,76.4
+2849,19,other,bca,1.03,69.6,yes,8.5,poor,coaching,medium,easy,48.9
+12792,23,male,ba,6.55,56.9,yes,5.5,average,self-study,high,moderate,86.4
+7723,23,male,bba,3.92,90.5,yes,7.0,average,online videos,low,easy,80.2
+813,22,male,bba,5.01,51.4,yes,6.2,average,coaching,high,easy,80.9
+11194,24,male,bba,0.08,95.8,yes,4.5,average,coaching,medium,hard,63.1
+5136,17,female,b.sc,2.61,73.8,yes,8.5,average,self-study,low,moderate,61.3
+8511,22,other,bba,7.77,67.1,yes,8.1,good,mixed,low,moderate,83.9
+7435,20,other,diploma,3.54,63.9,yes,8.2,average,coaching,low,moderate,82.6
+16477,21,other,bca,6.9,82.0,yes,5.0,good,coaching,medium,hard,100.0
+937,18,male,diploma,2.57,75.8,yes,9.8,poor,mixed,low,moderate,38.8
+11966,23,other,diploma,4.82,59.4,no,6.0,good,online videos,medium,moderate,54.1
+1693,22,other,bba,4.32,47.5,yes,7.2,average,coaching,low,hard,68.3
+6217,20,female,bca,4.87,97.7,yes,7.8,good,self-study,high,hard,94.3
+9460,20,female,b.com,2.65,78.8,yes,8.0,average,group study,high,easy,58.5
+12528,22,male,b.com,6.85,94.4,yes,9.0,average,mixed,medium,moderate,74.3
+15485,21,female,bba,0.56,45.3,yes,5.1,poor,coaching,medium,easy,19.599
+5793,20,female,b.sc,3.93,71.9,yes,5.4,poor,online videos,low,easy,30.9
+12267,19,other,bba,6.12,85.0,yes,8.2,average,group study,medium,hard,70.7
+2222,18,female,b.tech,6.24,53.2,yes,9.0,poor,self-study,high,moderate,54.4
+15758,24,male,b.com,6.02,44.9,yes,5.7,good,self-study,high,moderate,71.9
+4694,23,male,bca,0.57,53.2,yes,4.2,good,mixed,medium,moderate,45.1
+10109,21,male,b.sc,5.23,61.8,no,7.8,poor,online videos,high,easy,52.0
+5108,24,female,bca,4.68,50.3,yes,6.4,average,online videos,high,easy,66.7
+13481,19,other,b.sc,7.07,78.5,yes,4.3,poor,coaching,medium,moderate,67.4
+4746,19,male,ba,4.28,55.0,yes,6.9,good,coaching,high,hard,72.1
+1605,17,male,diploma,2.81,53.6,no,5.5,good,group study,low,moderate,46.5
+17396,19,other,bca,7.79,51.3,yes,8.8,good,mixed,low,easy,82.3
+16864,17,female,ba,5.17,99.4,yes,7.5,average,self-study,medium,easy,100.0
+8214,22,other,b.sc,4.75,72.9,no,6.6,poor,group study,medium,easy,58.0
+1093,23,male,ba,5.4,85.4,yes,9.1,average,coaching,high,moderate,84.4
+13885,21,female,ba,4.3,71.1,yes,7.5,poor,mixed,high,easy,61.7
+6312,19,other,diploma,6.68,93.9,yes,4.9,average,mixed,medium,easy,99.3
+9013,23,female,diploma,2.3,82.1,yes,8.7,average,coaching,high,moderate,51.5
+352,17,other,diploma,3.8,80.8,yes,8.3,poor,online videos,low,moderate,69.6
+14783,18,female,b.tech,1.31,81.1,yes,8.2,poor,self-study,low,easy,28.5
+1531,17,male,b.sc,4.58,65.7,yes,9.9,average,online videos,medium,easy,85.2
+13592,21,female,diploma,6.43,83.2,yes,5.0,average,online videos,high,moderate,64.8
+15216,17,male,b.sc,0.85,73.1,yes,8.3,poor,self-study,low,easy,37.4
+11541,23,female,diploma,0.88,90.0,yes,5.0,average,group study,medium,moderate,50.3
+219,20,male,diploma,1.34,76.6,yes,7.9,average,self-study,low,hard,55.9
+6814,21,male,bca,1.11,57.1,yes,7.4,average,coaching,high,moderate,53.0
+5358,22,male,bba,7.21,61.0,yes,5.9,average,group study,low,hard,74.8
+15730,22,other,b.sc,4.36,94.0,yes,9.0,average,self-study,high,moderate,57.9
+13044,20,male,bca,6.03,62.6,yes,9.8,good,online videos,high,moderate,90.6
+1454,18,other,b.com,7.89,57.0,yes,8.5,poor,online videos,medium,easy,86.6
+14933,22,female,bca,5.02,42.8,yes,4.4,good,online videos,low,easy,53.5
+4741,19,male,b.com,7.23,40.6,yes,9.7,poor,mixed,low,moderate,77.2
+2815,18,female,bca,3.19,52.0,no,8.2,good,coaching,high,easy,74.6
+7887,19,female,diploma,2.77,93.5,yes,5.7,poor,self-study,medium,moderate,60.1
+4974,23,male,b.tech,4.51,82.4,yes,6.6,poor,online videos,low,moderate,52.4
+1183,22,male,b.com,6.26,75.1,yes,9.6,average,online videos,medium,moderate,63.1
+10036,20,other,b.tech,0.64,52.7,yes,6.7,good,group study,low,moderate,49.5
+3948,19,male,b.sc,1.21,41.5,yes,5.1,poor,self-study,medium,moderate,34.7
+3190,23,female,ba,2.03,54.7,no,6.2,poor,group study,medium,moderate,19.599
+14481,24,male,b.sc,7.39,91.9,yes,5.7,average,coaching,medium,moderate,100.0
+19827,18,male,diploma,7.4,77.1,yes,8.3,average,group study,high,moderate,91.5
+9624,22,male,b.sc,7.91,66.3,no,9.2,average,coaching,high,moderate,97.6
+1007,23,other,b.tech,6.6,79.3,no,9.8,average,group study,medium,easy,79.4
+2326,23,male,ba,7.62,74.4,yes,4.3,poor,mixed,medium,moderate,93.1
+10646,23,male,bba,5.73,76.7,yes,8.2,average,group study,medium,easy,66.6
+19524,17,female,b.tech,7.23,54.2,yes,4.3,poor,self-study,low,moderate,49.3
+17726,23,other,b.com,7.55,52.5,yes,8.4,poor,online videos,high,easy,70.7
+5744,20,male,ba,5.22,94.1,yes,4.9,good,group study,low,moderate,76.7
+12681,21,male,ba,5.27,95.2,no,4.7,good,group study,high,moderate,84.1
+14584,19,male,b.com,2.84,52.6,yes,9.5,good,online videos,low,moderate,52.7
+19258,24,male,ba,6.7,99.0,yes,8.7,poor,group study,medium,hard,73.7
+11882,22,female,bba,5.9,78.7,yes,8.2,average,group study,low,easy,69.0
+1028,19,female,b.com,2.99,88.9,no,7.4,good,group study,medium,hard,55.1
+4070,17,male,b.com,6.63,81.3,yes,7.8,poor,online videos,high,hard,72.2
+18573,21,female,b.tech,1.96,68.3,yes,8.2,average,coaching,medium,easy,47.8
+14653,18,male,bca,4.04,52.8,yes,7.2,average,mixed,high,hard,64.7
+6651,18,male,bca,3.24,59.4,yes,9.0,average,self-study,medium,moderate,43.7
+15784,24,female,b.com,0.65,48.8,yes,6.6,good,coaching,low,moderate,48.0
+17649,24,other,b.sc,5.96,63.8,yes,8.1,average,coaching,high,moderate,93.8
+4623,23,other,ba,2.56,96.6,no,6.7,average,group study,low,moderate,36.5
+10386,17,male,b.sc,2.3,64.4,yes,9.5,good,coaching,low,hard,64.1
+13671,24,female,bca,5.75,79.9,yes,6.2,good,online videos,medium,moderate,76.2
+14047,24,female,b.com,0.56,64.0,yes,4.4,average,coaching,high,easy,48.5
+1963,18,other,b.tech,3.25,48.0,yes,5.4,poor,self-study,low,hard,35.5
+19875,17,female,diploma,4.5,73.0,yes,5.0,good,self-study,medium,moderate,79.3
+1600,22,other,b.com,7.71,59.7,yes,8.2,good,coaching,high,hard,88.8
+9676,17,male,bca,2.83,67.0,yes,8.5,good,mixed,low,hard,70.9
+10953,24,male,b.tech,2.94,95.0,yes,8.3,average,online videos,high,moderate,79.8
+4334,24,female,bba,3.6,52.0,yes,4.6,poor,online videos,low,hard,29.0
+12100,21,other,ba,0.62,79.8,no,6.9,good,self-study,medium,moderate,47.0
+6956,24,female,b.sc,5.03,81.4,yes,5.8,good,group study,medium,easy,90.0
+18822,19,other,b.tech,7.85,41.4,yes,8.5,poor,mixed,medium,moderate,61.7
+8546,23,other,b.sc,5.21,57.2,yes,9.3,poor,group study,low,moderate,82.4
+15975,22,other,diploma,5.94,41.6,yes,7.8,average,group study,high,moderate,89.0
+13723,23,female,diploma,6.14,81.0,yes,6.0,average,mixed,medium,moderate,78.1
+696,19,female,diploma,1.53,99.4,yes,7.9,poor,online videos,medium,easy,33.2
+15631,21,other,diploma,3.85,45.9,yes,8.8,good,group study,medium,moderate,51.9
+13590,22,other,b.sc,7.54,67.6,no,6.7,average,group study,high,moderate,98.2
+14522,24,female,bca,4.8,88.8,yes,7.8,average,group study,low,moderate,66.9
+19919,20,male,b.tech,3.11,76.2,yes,5.2,good,online videos,high,hard,62.0
+9771,18,female,diploma,2.27,88.5,yes,8.0,good,self-study,medium,easy,59.6
+13378,21,female,b.com,4.41,72.3,yes,8.3,poor,coaching,low,moderate,73.0
+1035,17,female,bba,5.7,86.4,no,9.1,average,group study,low,moderate,87.5
+10843,24,female,diploma,0.45,92.1,yes,8.0,average,group study,medium,moderate,55.0
+16593,23,male,diploma,5.1,66.1,yes,7.0,poor,coaching,low,moderate,76.0
+10422,20,other,b.tech,5.56,54.9,yes,4.3,good,group study,low,moderate,40.2
+10980,22,other,ba,7.91,40.6,no,8.7,poor,group study,high,hard,68.8
+2128,22,male,ba,3.86,40.6,no,4.2,poor,group study,medium,hard,64.9
+12188,21,male,b.com,6.29,51.2,yes,7.0,average,group study,medium,moderate,73.3
+5971,22,male,b.tech,7.21,92.5,yes,6.3,average,online videos,medium,hard,80.8
+13226,21,male,b.sc,2.21,41.3,yes,4.9,good,online videos,high,hard,56.4
+994,20,female,diploma,2.74,91.9,yes,8.5,poor,group study,high,moderate,63.9
+15085,18,other,b.com,7.38,77.8,yes,8.1,good,self-study,low,moderate,93.7
+14846,19,male,b.com,7.34,98.6,yes,9.1,good,mixed,low,moderate,98.0
+14946,19,female,bca,1.8,46.0,yes,4.6,poor,self-study,high,moderate,40.8
+448,24,other,diploma,7.36,51.8,yes,4.9,good,coaching,low,moderate,85.9
+17278,21,female,b.tech,6.17,51.0,no,6.8,average,online videos,high,moderate,51.1
+5454,23,other,b.sc,7.28,86.6,yes,9.6,poor,online videos,low,easy,72.9
+3212,19,male,bca,4.86,98.7,yes,9.6,good,self-study,medium,moderate,75.0
+5562,17,male,b.sc,3.03,74.0,no,5.7,good,mixed,high,hard,79.7
+18912,18,other,b.sc,4.0,79.7,yes,8.8,poor,online videos,high,moderate,63.8
+3211,24,other,b.sc,0.4,68.5,no,8.8,average,group study,low,moderate,38.9
+13814,22,female,bca,4.47,98.3,no,4.3,average,coaching,medium,moderate,67.6
+8967,22,other,b.tech,3.21,71.3,no,5.0,poor,group study,medium,moderate,55.7
+17654,22,female,bba,4.47,79.7,yes,9.7,average,self-study,medium,hard,65.9
+10650,18,other,bca,2.97,87.4,no,6.6,average,online videos,low,easy,64.3
+19715,18,other,b.sc,6.75,92.3,yes,4.5,average,coaching,medium,moderate,68.0
+3972,24,male,b.sc,3.19,49.7,yes,8.3,poor,mixed,high,moderate,61.0
+10808,18,other,bca,4.24,73.3,yes,4.5,poor,self-study,high,hard,65.2
+19545,17,female,b.sc,5.28,61.4,yes,8.8,poor,coaching,medium,easy,89.1
+11367,22,male,bba,5.92,42.6,yes,6.7,good,online videos,low,moderate,61.0
+3779,24,male,diploma,6.29,87.3,no,8.1,average,mixed,medium,moderate,85.1
+13080,22,male,b.sc,5.57,50.8,yes,6.5,average,online videos,high,moderate,53.5
+6353,18,male,b.sc,4.67,62.7,yes,6.3,average,online videos,high,moderate,79.3
+4008,22,other,b.tech,2.5,74.0,yes,6.2,good,online videos,medium,moderate,62.1
+3777,21,male,ba,1.79,57.7,yes,5.7,poor,coaching,high,moderate,57.3
+17148,20,other,diploma,1.05,67.8,yes,8.3,good,mixed,high,easy,44.8
+14105,21,other,b.sc,0.66,68.6,yes,6.8,good,mixed,high,easy,45.3
+19146,20,other,b.sc,1.56,82.3,yes,4.5,average,group study,high,moderate,40.4
+19184,17,other,ba,6.22,64.2,yes,4.6,good,online videos,medium,easy,66.9
+8427,19,other,b.sc,7.18,48.1,no,4.6,average,group study,low,easy,62.8
+4338,19,male,diploma,0.78,55.0,yes,8.0,good,mixed,high,easy,38.2
+8118,20,male,ba,7.17,58.5,yes,6.3,poor,group study,low,easy,73.7
+7764,24,male,b.tech,7.4,67.6,no,6.0,poor,online videos,high,moderate,78.7
+14013,23,other,bca,1.98,90.1,yes,7.1,poor,self-study,high,moderate,56.6
+13652,21,female,b.sc,4.28,56.5,yes,6.3,average,online videos,high,moderate,68.6
+439,17,male,bba,5.8,88.7,yes,5.5,good,coaching,high,moderate,97.9
+16534,24,female,b.tech,0.42,43.7,yes,7.8,good,self-study,low,moderate,34.9
+3270,24,female,b.com,3.22,91.2,no,9.5,poor,mixed,low,moderate,55.1
+3753,24,other,bba,6.16,47.2,yes,6.4,poor,group study,high,moderate,80.1
+9114,23,male,b.tech,2.98,73.6,yes,9.3,average,online videos,medium,hard,78.9
+9441,20,female,bba,6.24,70.2,yes,7.6,average,group study,high,moderate,75.2
+1740,18,other,diploma,5.46,74.1,yes,6.4,good,coaching,medium,easy,69.7
+607,19,other,diploma,4.28,60.0,yes,5.5,poor,group study,medium,hard,47.9
+17086,19,other,diploma,0.43,93.8,yes,4.2,poor,mixed,high,hard,38.3
+12999,18,female,b.sc,5.9,99.4,yes,8.6,poor,coaching,low,moderate,80.5
+16973,21,male,b.sc,1.76,48.9,yes,6.8,poor,mixed,medium,easy,29.6
+18367,22,female,bba,2.33,91.9,yes,5.6,good,self-study,high,moderate,55.1
+15684,19,female,bca,3.44,90.2,yes,4.3,average,mixed,high,easy,63.9
+11038,18,male,b.sc,6.91,99.4,yes,9.5,good,online videos,low,moderate,93.6
+5747,20,other,ba,4.21,79.3,yes,8.6,good,online videos,low,easy,55.4
+11585,19,other,b.tech,4.57,48.6,yes,7.4,good,online videos,medium,hard,63.5
+6271,21,female,b.com,6.64,69.1,no,7.8,average,coaching,high,moderate,88.6
+8852,20,female,bba,0.32,85.0,yes,6.4,average,mixed,medium,moderate,48.4
+18409,17,other,bba,6.62,78.7,yes,9.9,good,coaching,medium,moderate,100.0
+6601,18,other,bba,2.28,80.3,yes,7.2,average,mixed,low,moderate,65.8
+11379,17,male,bca,1.5,99.4,no,4.3,poor,online videos,high,easy,48.3
+17190,17,male,b.com,1.0,54.5,yes,7.1,good,mixed,high,moderate,30.1
+11606,23,female,diploma,4.37,72.3,yes,7.0,good,mixed,high,moderate,85.6
+6910,24,male,b.sc,0.64,71.1,yes,5.5,good,online videos,medium,easy,52.9
+739,22,male,b.sc,0.7,96.4,yes,5.5,good,self-study,medium,moderate,57.9
+1995,23,male,ba,1.69,89.3,yes,6.7,poor,online videos,medium,moderate,50.2
+120,17,other,diploma,7.59,58.2,yes,5.4,average,mixed,medium,moderate,93.1
+14927,21,female,b.sc,4.37,59.3,yes,8.3,good,coaching,high,easy,94.3
+17610,23,female,b.tech,0.21,79.2,yes,7.2,average,online videos,medium,easy,42.4
+17437,17,male,ba,1.91,98.1,yes,9.3,good,coaching,high,easy,70.4
+18554,23,male,b.com,6.28,84.0,yes,9.4,poor,group study,high,hard,81.2
+7294,19,female,b.sc,5.19,86.3,yes,9.4,average,group study,medium,moderate,68.6
+3406,19,male,ba,5.73,58.1,yes,7.1,average,mixed,high,hard,59.5
+10538,24,male,bca,4.43,60.0,yes,5.0,poor,self-study,medium,easy,47.6
+18467,23,other,b.tech,7.62,96.8,yes,5.9,good,mixed,high,moderate,88.8
+8627,23,male,ba,1.27,41.1,yes,4.2,average,self-study,low,moderate,30.7
+3482,18,female,b.com,7.86,43.1,no,6.2,poor,self-study,medium,moderate,56.5
+17819,22,male,ba,0.78,50.8,yes,9.3,poor,self-study,high,moderate,49.3
+128,23,male,b.tech,6.9,87.1,yes,5.2,average,online videos,high,hard,71.1
+13427,17,female,b.tech,3.92,78.0,yes,9.9,poor,group study,high,easy,61.9
+10611,19,female,bba,6.86,87.9,yes,9.0,good,mixed,low,moderate,96.1
+15274,20,male,b.sc,1.2,96.4,yes,7.4,poor,coaching,high,easy,61.6
+19581,21,male,b.tech,1.89,56.2,yes,8.3,good,self-study,medium,moderate,56.4
+19286,24,male,b.com,7.9,55.1,no,7.3,good,coaching,medium,hard,86.5
+12823,20,male,b.com,2.31,89.5,no,6.1,average,group study,medium,moderate,40.8
+3074,23,female,b.com,7.89,73.1,yes,9.9,good,mixed,low,moderate,94.4
+2381,18,male,ba,2.23,51.9,yes,4.8,good,coaching,medium,hard,45.9
+2484,19,male,bba,1.71,47.2,yes,9.1,poor,coaching,low,hard,40.9
+3462,24,other,ba,1.69,58.5,yes,9.8,average,group study,medium,moderate,35.0
+15232,23,female,b.tech,7.68,96.1,yes,6.6,average,self-study,low,hard,85.9
+7459,17,male,diploma,3.38,61.7,yes,8.3,poor,group study,high,moderate,44.4
+15885,17,male,ba,7.21,57.3,yes,4.7,average,mixed,medium,moderate,91.3
+6886,17,female,diploma,7.81,84.5,no,5.3,poor,group study,medium,moderate,82.3
+15098,17,female,ba,1.26,71.7,yes,7.3,good,group study,high,easy,61.3
+18685,21,male,b.sc,3.84,46.1,yes,5.7,good,mixed,high,moderate,55.3
+14971,17,male,b.sc,0.2,46.3,yes,9.1,good,coaching,high,hard,49.9
+804,24,male,bba,3.83,58.9,yes,8.2,poor,coaching,high,hard,47.8
+475,22,male,b.com,6.29,45.7,yes,8.0,poor,mixed,low,moderate,59.5
+8609,22,female,b.sc,2.98,85.4,no,8.2,good,coaching,low,moderate,79.3
+6483,24,male,diploma,4.46,90.9,yes,7.6,poor,online videos,medium,moderate,56.3
+18288,22,other,b.com,1.73,80.7,no,7.0,good,self-study,high,moderate,66.7
+5558,19,female,b.sc,7.48,82.2,yes,4.7,poor,coaching,low,moderate,71.6
+13949,19,male,b.sc,7.38,45.8,yes,6.6,poor,self-study,high,easy,72.9
+8892,20,female,ba,1.38,88.7,yes,7.1,poor,self-study,high,moderate,26.6
+12522,24,male,ba,3.61,58.3,yes,8.4,good,group study,medium,hard,57.5
+4449,21,female,b.sc,4.64,41.3,yes,7.9,average,self-study,low,moderate,51.8
+485,20,male,ba,2.35,61.9,yes,7.5,average,mixed,high,hard,59.2
+10423,23,male,b.sc,2.49,84.0,yes,9.1,poor,group study,low,moderate,48.3
+19412,18,female,ba,3.45,75.5,yes,4.8,poor,self-study,medium,easy,36.2
+14901,21,other,diploma,2.7,60.9,yes,8.9,average,coaching,low,moderate,46.6
+11227,24,other,b.com,0.65,51.1,yes,5.8,average,online videos,medium,hard,30.4
+19133,20,male,diploma,6.43,84.0,yes,6.3,good,self-study,high,moderate,100.0
+7921,19,male,bba,2.38,96.8,yes,5.9,poor,self-study,medium,moderate,49.3
+7912,21,female,b.com,5.33,42.4,yes,9.2,poor,self-study,low,hard,43.4
+2767,19,female,bca,2.03,77.9,yes,8.5,poor,online videos,medium,moderate,45.7
+14866,22,male,ba,3.78,78.9,yes,6.3,poor,group study,low,moderate,52.9
+16507,21,other,ba,4.7,90.4,yes,9.9,good,group study,medium,easy,87.3
+11689,18,female,ba,2.02,42.1,yes,9.2,poor,mixed,medium,easy,44.8
+4038,21,female,bca,1.67,56.1,yes,7.5,poor,group study,low,hard,31.1
+857,18,female,b.tech,4.24,93.7,yes,5.1,good,group study,low,moderate,68.7
+16137,23,other,b.com,2.56,61.5,yes,7.5,average,online videos,medium,hard,54.8
+8831,24,other,bba,7.62,66.5,yes,9.8,average,group study,low,moderate,100.0
+8804,22,male,b.tech,6.79,49.5,yes,9.5,good,online videos,medium,moderate,83.5
+11839,18,male,diploma,1.47,82.2,yes,6.1,average,coaching,high,moderate,63.1
+3827,19,male,bba,5.52,93.7,yes,4.2,poor,self-study,high,moderate,69.3
+18128,23,other,b.sc,2.25,75.4,yes,5.4,average,online videos,high,easy,33.2
+5996,18,female,bca,3.61,58.9,no,9.2,poor,mixed,high,moderate,75.9
+504,23,other,diploma,2.02,94.8,yes,8.3,good,online videos,high,moderate,48.3
+2960,20,other,b.tech,7.91,49.7,yes,8.8,average,self-study,high,easy,87.2
+7989,17,other,bba,6.32,59.6,yes,7.5,poor,online videos,high,easy,64.7
+9641,19,other,b.tech,6.08,80.8,yes,8.4,good,group study,low,easy,81.3
+8110,23,female,diploma,2.61,77.7,yes,4.1,average,coaching,high,easy,75.0
+5383,20,other,diploma,6.68,74.9,yes,5.6,poor,self-study,high,moderate,62.4
+13952,17,male,bba,1.71,45.0,yes,4.6,good,online videos,medium,easy,46.4
+13139,23,female,b.tech,6.06,81.3,yes,4.5,good,group study,low,moderate,87.3
+17988,19,other,bba,7.72,76.7,yes,4.5,poor,group study,medium,moderate,70.0
+13436,23,male,b.tech,2.7,51.5,yes,4.2,average,coaching,medium,moderate,50.8
+7726,22,female,bca,6.4,74.6,yes,8.2,good,coaching,low,easy,84.9
+12034,18,male,b.com,2.95,89.2,yes,8.9,average,coaching,low,hard,71.0
+8130,17,female,bba,7.35,63.1,yes,4.7,poor,mixed,medium,hard,83.6
+12788,18,other,ba,2.77,59.0,yes,9.9,average,mixed,high,hard,69.5
+8293,17,male,bba,2.55,91.4,yes,9.2,average,group study,low,moderate,52.9
+18322,19,female,b.com,3.59,43.0,yes,8.1,good,group study,low,easy,58.3
+13061,19,other,diploma,3.49,58.3,yes,6.8,poor,online videos,low,easy,40.6
+3296,23,female,b.tech,5.5,75.0,yes,6.3,good,mixed,low,hard,65.6
+8958,23,male,bca,6.85,58.9,yes,5.9,average,mixed,medium,moderate,76.3
+116,21,female,diploma,0.08,94.8,yes,5.4,poor,coaching,high,moderate,26.5
+5648,24,female,diploma,3.43,63.4,yes,6.2,poor,self-study,medium,moderate,45.7
+12625,17,female,bba,3.78,78.7,yes,7.5,poor,self-study,medium,easy,42.2
+14748,23,female,bca,2.97,73.2,yes,8.5,poor,mixed,medium,hard,53.8
+7182,23,male,bba,3.7,79.6,no,9.2,poor,group study,low,moderate,78.6
+1711,19,male,b.tech,2.25,87.9,yes,6.6,poor,mixed,medium,moderate,57.9
+15958,24,other,ba,0.85,51.7,yes,8.0,poor,self-study,medium,hard,32.6
+5818,24,male,b.com,7.91,87.3,yes,6.7,good,coaching,high,easy,100.0
+15279,20,male,diploma,5.51,52.4,yes,7.6,good,mixed,medium,easy,72.6
+2481,22,male,b.tech,0.29,82.8,yes,7.9,good,self-study,low,hard,49.1
+10251,21,female,bba,2.4,72.2,yes,7.4,good,coaching,medium,easy,58.8
+4033,19,male,b.com,3.08,63.8,yes,6.6,good,coaching,medium,moderate,62.2
+13348,20,female,bba,6.26,56.6,yes,6.3,average,self-study,high,easy,66.8
+16531,21,female,b.sc,4.37,55.0,yes,5.3,poor,online videos,high,moderate,56.0
+9515,22,other,b.sc,0.86,96.4,no,8.4,average,online videos,high,moderate,51.3
+4611,17,male,diploma,6.32,51.6,yes,9.2,average,self-study,medium,moderate,70.9
+5118,20,female,b.com,0.61,70.9,no,7.6,poor,mixed,high,easy,40.8
+16947,23,male,diploma,5.62,69.5,yes,6.4,average,self-study,high,hard,84.8
+6386,21,male,b.com,5.05,72.5,yes,4.7,good,online videos,high,easy,83.6
+15140,24,other,b.sc,4.65,87.8,no,4.9,average,self-study,low,hard,53.6
+6272,23,other,b.com,4.43,46.7,yes,5.9,average,mixed,high,easy,76.0
+342,19,female,bba,4.72,62.3,yes,9.7,poor,coaching,medium,easy,66.7
+829,23,male,ba,0.09,66.6,yes,8.3,good,self-study,low,moderate,19.599
+12530,20,other,b.com,4.8,90.3,yes,8.8,poor,mixed,high,easy,82.6
+11552,17,other,bba,6.86,73.6,no,8.5,average,self-study,low,moderate,65.6
+9528,21,male,bca,6.46,49.8,yes,6.4,poor,group study,low,moderate,50.1
+11837,23,other,bba,5.82,70.5,yes,8.7,average,mixed,medium,easy,83.9
+314,19,female,b.tech,5.23,54.5,yes,8.1,average,online videos,high,easy,66.1
+11698,17,other,diploma,7.57,45.5,yes,8.4,good,coaching,medium,moderate,85.1
+10052,21,other,ba,2.81,90.3,no,7.2,good,mixed,high,moderate,66.1
+12864,20,male,diploma,1.07,86.0,yes,5.3,poor,coaching,medium,easy,58.3
+16071,22,other,b.com,0.56,87.9,yes,8.1,poor,online videos,medium,hard,46.9
+17137,23,male,bca,6.55,94.8,yes,9.6,average,self-study,low,hard,91.0
+18262,17,female,ba,5.27,40.7,no,4.8,poor,group study,high,moderate,41.1
+4910,21,female,b.tech,1.22,69.9,yes,4.7,average,coaching,high,moderate,51.7
+17797,24,other,bba,0.55,98.9,yes,9.8,poor,group study,medium,moderate,51.3
+8874,23,male,ba,4.62,60.0,yes,8.7,good,online videos,medium,hard,60.5
+18286,18,male,bba,4.0,58.3,no,5.0,average,coaching,high,hard,65.8
+410,17,other,bba,1.4,86.3,yes,8.6,poor,mixed,high,moderate,59.4
+3796,19,male,diploma,5.47,85.2,no,8.2,poor,mixed,low,hard,89.7
+2704,23,female,bba,5.53,84.4,yes,9.2,poor,coaching,low,easy,81.5
+10343,23,other,ba,0.57,88.6,yes,9.9,good,coaching,low,moderate,60.1
+4982,24,male,bba,6.51,53.1,yes,5.7,poor,group study,high,hard,54.1
+8583,19,female,ba,1.9,51.5,yes,7.0,average,mixed,high,easy,48.5
+7668,20,other,b.tech,3.52,68.6,yes,8.5,good,group study,low,easy,61.4
+17518,20,male,bba,2.29,89.7,yes,7.7,good,coaching,medium,moderate,63.9
+17184,17,male,bba,7.3,52.3,yes,4.1,average,online videos,low,easy,71.5
+9726,19,male,bca,3.86,44.9,yes,7.1,good,online videos,medium,moderate,58.3
+18154,23,female,b.tech,6.96,68.6,yes,7.9,good,online videos,low,moderate,75.1
+7500,18,female,bba,6.49,67.6,no,5.2,average,group study,high,hard,89.1
+17037,24,female,bba,7.3,86.7,yes,8.7,poor,group study,high,easy,87.0
+7721,17,male,ba,0.5,47.7,yes,7.4,good,mixed,low,moderate,49.2
+1906,18,female,diploma,1.38,41.1,yes,8.8,poor,self-study,medium,moderate,38.5
+6718,22,female,ba,7.6,80.5,yes,6.4,good,coaching,low,hard,100.0
+2175,18,female,bca,1.79,93.5,yes,8.2,good,self-study,high,moderate,68.0
+6770,18,female,diploma,4.9,67.9,yes,6.2,poor,mixed,high,easy,62.7
+7162,23,female,b.tech,1.21,57.6,yes,7.2,average,self-study,low,moderate,42.0
+6505,20,female,ba,3.58,40.6,yes,9.1,good,coaching,medium,moderate,74.4
+18766,20,female,bca,0.91,88.0,yes,9.0,good,self-study,medium,moderate,62.5
+4421,22,other,diploma,4.1,44.7,yes,8.2,poor,online videos,medium,moderate,55.3
+1273,24,other,b.tech,7.58,69.8,no,5.2,poor,self-study,high,easy,83.9
+452,24,other,bca,1.99,61.1,no,8.4,good,online videos,medium,moderate,61.9
+3520,24,female,bca,5.06,53.5,yes,8.3,poor,self-study,medium,hard,57.4
+17478,23,male,bca,0.31,76.6,yes,7.3,poor,mixed,medium,moderate,48.6
+9568,21,other,b.com,6.48,46.5,no,4.8,average,online videos,high,easy,61.9
+248,20,male,bba,4.01,92.3,no,6.0,good,coaching,medium,hard,83.4
+17816,23,male,bba,3.08,58.0,yes,8.7,average,mixed,high,moderate,55.8
+1748,20,male,b.sc,5.57,43.4,no,5.4,average,self-study,high,easy,57.0
+2086,22,other,diploma,3.13,71.5,yes,5.5,good,group study,high,hard,64.2
+12493,19,female,bba,2.74,78.0,yes,6.6,poor,group study,low,moderate,36.3
+13352,18,other,b.com,7.63,43.6,yes,9.7,average,group study,low,moderate,69.4
+4975,23,female,bca,4.38,73.5,yes,9.9,good,self-study,low,moderate,87.3
+3499,17,female,b.com,5.63,92.3,yes,4.2,average,group study,medium,easy,78.5
+13443,17,male,b.tech,0.9,44.4,yes,8.8,poor,coaching,high,moderate,51.9
+1085,18,other,b.com,3.24,91.2,no,8.2,good,mixed,high,moderate,86.8
+4936,21,male,b.tech,6.24,98.0,yes,9.4,good,mixed,medium,moderate,97.5
+6238,19,female,b.com,4.9,87.9,yes,8.7,good,mixed,high,moderate,78.1
+6735,19,male,bba,5.41,82.4,yes,4.1,good,coaching,high,moderate,84.2
+12984,22,male,ba,1.82,51.4,yes,7.6,poor,coaching,medium,hard,48.0
+14250,19,male,b.sc,2.75,78.2,yes,5.6,poor,self-study,high,moderate,45.2
+11983,20,other,b.com,4.66,58.5,yes,9.7,average,mixed,medium,moderate,71.7
+5923,22,other,b.com,4.61,83.1,yes,4.1,poor,mixed,medium,moderate,60.5
+17269,20,male,b.com,2.49,64.3,yes,6.3,poor,online videos,medium,moderate,45.4
+8949,24,male,ba,4.82,64.0,yes,5.8,good,mixed,low,easy,74.8
+19451,24,other,bba,4.64,73.8,yes,7.1,average,online videos,medium,easy,67.0
+4150,20,female,bca,5.77,95.1,no,7.8,average,coaching,medium,hard,93.1
+5100,19,female,bba,5.24,47.4,yes,6.0,average,group study,high,easy,69.6
+9513,20,male,ba,6.98,79.0,yes,4.4,poor,group study,high,moderate,81.7
+13260,22,male,diploma,1.9,91.9,yes,5.9,poor,self-study,low,easy,47.4
+17361,18,other,diploma,1.42,84.2,yes,4.3,good,self-study,medium,moderate,55.9
+17038,21,female,diploma,4.97,67.1,no,8.4,average,self-study,high,easy,72.6
+3336,18,other,bca,1.94,46.7,yes,8.7,average,self-study,low,hard,37.2
+17586,19,female,ba,7.71,47.1,yes,5.4,poor,mixed,medium,hard,73.2
+19820,23,female,bba,4.82,92.5,yes,7.6,poor,self-study,medium,moderate,77.9
+13729,20,male,b.tech,4.43,90.5,yes,8.3,good,online videos,medium,easy,69.2
+9894,21,male,b.tech,7.74,57.8,yes,8.0,good,group study,high,easy,67.8
+7651,19,other,b.sc,3.72,75.2,no,4.8,poor,mixed,high,moderate,64.2
+2239,20,other,bca,0.66,87.4,no,9.6,good,mixed,medium,moderate,50.7
+14205,23,male,b.tech,1.35,97.1,yes,4.4,good,group study,high,moderate,60.6
+252,20,male,diploma,3.51,81.3,no,7.8,poor,group study,medium,hard,55.4
+8197,19,other,bca,4.93,86.4,yes,5.9,poor,coaching,high,hard,67.4
+4707,20,other,bba,0.08,95.0,yes,7.2,average,coaching,low,easy,60.8
+8144,22,other,b.com,4.89,85.8,no,9.7,good,group study,medium,moderate,87.2
+2715,21,female,b.sc,5.69,61.3,yes,4.5,average,online videos,medium,moderate,61.9
+18080,17,other,b.com,6.58,86.9,yes,9.5,poor,online videos,high,easy,84.4
+9530,20,male,b.com,1.45,99.4,yes,9.7,good,mixed,medium,moderate,67.3
+10342,22,female,b.tech,2.2,52.4,yes,8.6,good,group study,medium,easy,48.6
+15291,17,female,ba,3.08,56.8,yes,9.0,poor,mixed,high,easy,59.9
+327,18,female,b.tech,5.67,68.7,yes,5.5,average,self-study,high,easy,53.6
+4981,24,female,b.tech,2.81,48.2,yes,6.0,good,mixed,low,moderate,45.8
+7439,21,male,bba,3.12,89.8,yes,6.8,good,group study,medium,easy,53.3
+6648,23,other,bba,2.13,54.6,no,6.7,good,online videos,medium,easy,46.3
+6259,22,other,bca,3.54,61.4,yes,5.4,poor,online videos,medium,moderate,52.1
+9048,23,other,diploma,4.7,95.9,no,6.3,good,coaching,low,hard,83.2
+3394,18,other,b.sc,3.31,88.8,yes,5.2,average,coaching,medium,easy,74.3
+17665,21,female,b.tech,7.26,62.8,yes,5.8,good,coaching,low,moderate,80.8
+19415,21,male,bca,6.39,56.4,yes,8.6,poor,self-study,low,moderate,46.3
+16118,22,other,bba,6.74,41.8,yes,6.5,good,group study,low,easy,63.2
+1338,19,male,b.com,0.4,42.7,no,5.3,poor,self-study,high,moderate,22.3
+3169,23,other,b.sc,4.18,45.8,yes,8.4,poor,group study,high,easy,53.9
+12861,24,male,diploma,0.22,90.5,yes,5.0,good,mixed,medium,moderate,32.1
+19815,24,other,bba,6.14,86.7,no,8.7,good,group study,high,hard,79.1
+2394,18,male,b.sc,2.94,84.1,yes,9.9,good,coaching,low,moderate,61.2
+19917,18,male,bba,5.41,53.4,yes,5.5,poor,group study,medium,moderate,62.8
+15180,20,male,b.sc,3.47,62.9,yes,9.8,average,self-study,high,easy,85.3
+5924,24,female,b.tech,7.47,87.6,yes,9.9,average,group study,medium,easy,100.0
+16298,23,other,b.sc,6.01,78.2,yes,6.2,good,mixed,high,moderate,71.7
+2744,24,female,ba,7.39,84.9,yes,9.0,average,coaching,low,moderate,74.2
+5006,24,male,b.tech,6.88,71.1,yes,7.5,poor,coaching,high,easy,84.2
+18717,21,other,ba,7.28,86.4,yes,9.0,poor,self-study,high,moderate,76.9
+19614,22,male,b.sc,6.36,41.6,yes,7.2,poor,online videos,low,moderate,63.1
+11644,23,male,b.com,2.77,51.5,no,6.0,poor,online videos,high,moderate,56.8
+4120,17,female,bca,3.17,80.4,no,7.9,good,online videos,high,easy,43.6
+2091,24,female,b.sc,7.47,69.8,yes,4.6,average,coaching,high,easy,84.1
+7444,21,male,diploma,0.11,88.5,yes,8.4,good,coaching,low,moderate,53.1
+8732,17,other,b.tech,0.79,98.1,yes,6.6,average,coaching,low,moderate,51.5
+14405,24,male,b.sc,0.73,76.0,yes,9.6,good,group study,low,hard,27.2
+5703,19,male,bba,3.01,84.1,yes,7.8,average,coaching,low,easy,54.7
+3801,24,female,b.com,3.91,67.6,yes,6.1,good,coaching,medium,moderate,77.8
+11420,21,male,bca,1.68,98.3,yes,7.9,good,mixed,high,hard,73.2
+2009,23,other,bba,1.08,94.1,no,8.4,poor,group study,medium,easy,36.9
+1494,19,female,b.sc,2.64,45.9,yes,6.5,poor,self-study,high,hard,37.6
+9283,17,male,b.com,0.27,56.3,yes,7.6,good,group study,low,moderate,25.3
+7790,24,male,bba,0.3,92.0,yes,7.3,poor,coaching,medium,moderate,38.9
+3849,22,other,b.sc,1.14,92.7,yes,4.3,poor,group study,high,moderate,49.2
+15651,21,female,b.tech,5.6,79.8,yes,8.7,average,mixed,medium,moderate,69.5
+19144,22,other,ba,7.43,82.7,yes,4.3,average,coaching,high,moderate,88.0
+18552,17,male,b.com,1.22,92.5,no,9.8,poor,online videos,medium,moderate,59.1
+19250,23,male,b.com,6.25,98.2,no,6.2,average,self-study,high,moderate,79.7
+4195,21,female,ba,1.74,53.4,yes,9.2,average,group study,medium,moderate,36.9
+1513,22,female,bba,4.53,94.6,yes,7.9,average,mixed,high,moderate,79.5
+2749,20,other,diploma,6.75,43.0,yes,9.2,average,group study,high,moderate,73.2
+18212,22,male,bca,4.05,45.7,yes,6.4,poor,coaching,low,hard,43.1
+3734,24,female,bca,3.23,58.2,no,5.9,poor,mixed,medium,moderate,57.3
+7655,18,female,b.sc,0.24,73.7,yes,7.4,good,mixed,medium,easy,48.7
+2347,19,other,bba,1.23,95.6,yes,8.1,poor,coaching,high,hard,46.1
+2520,24,male,b.com,7.6,78.5,yes,8.3,good,online videos,high,moderate,93.2
+719,18,other,bca,0.88,56.2,yes,8.6,poor,self-study,medium,moderate,23.9
+140,20,male,b.tech,5.42,65.7,yes,7.3,good,mixed,low,moderate,72.2
+17948,17,male,b.sc,2.47,46.5,yes,4.8,good,coaching,high,easy,60.6
+17763,19,male,b.com,5.2,51.7,no,6.5,poor,mixed,low,easy,65.4
+2445,21,other,ba,0.33,65.0,yes,7.4,average,mixed,low,easy,39.8
+5199,21,other,b.com,7.91,75.8,yes,9.9,average,self-study,medium,easy,82.6
+1403,19,other,diploma,3.68,88.7,no,5.0,average,self-study,high,easy,60.7
+16322,20,other,b.tech,3.77,55.4,no,4.9,average,self-study,high,hard,52.1
+1731,23,other,bba,4.74,48.0,yes,7.3,average,coaching,medium,moderate,64.0
+9261,19,female,b.tech,5.3,86.9,yes,4.4,average,online videos,low,moderate,69.1
+3722,21,other,bba,2.97,61.5,yes,6.4,average,self-study,high,moderate,56.2
+17841,20,male,b.com,1.45,41.7,yes,6.1,poor,group study,medium,moderate,24.2
+19737,19,male,ba,4.99,82.1,yes,7.1,good,coaching,high,easy,95.9
+8122,24,male,b.tech,2.04,64.5,yes,4.2,average,self-study,low,moderate,37.5
+9532,19,other,b.sc,4.32,60.0,yes,8.9,average,coaching,high,easy,86.5
+17731,21,male,diploma,1.02,79.0,yes,5.4,good,coaching,medium,easy,47.3
+18907,20,other,b.sc,2.49,46.8,yes,9.6,poor,coaching,high,easy,59.8
+14284,22,male,b.tech,6.95,87.2,yes,4.4,average,coaching,medium,easy,92.2
+4075,19,male,b.sc,7.27,94.9,yes,8.7,average,self-study,high,hard,95.6
+9050,22,other,bca,5.9,90.1,no,4.2,good,coaching,medium,moderate,92.4
+6439,17,female,bba,1.48,51.0,yes,4.2,average,online videos,low,easy,48.1
+2268,22,other,bba,0.53,83.7,yes,4.2,average,online videos,high,easy,52.1
+2831,24,male,diploma,4.73,64.2,yes,8.4,average,self-study,low,moderate,51.2
+10496,18,male,diploma,0.08,92.4,yes,5.3,average,self-study,medium,moderate,46.4
+14178,18,female,b.tech,6.3,99.4,yes,4.1,poor,group study,low,easy,62.5
+12292,22,male,b.com,1.23,66.2,no,6.5,poor,online videos,high,moderate,32.2
+8367,19,other,diploma,6.87,87.5,yes,7.3,good,group study,low,moderate,98.5
+16895,21,other,bca,7.64,60.0,yes,5.8,average,online videos,low,easy,71.5
+8467,20,female,b.com,0.56,54.2,no,9.1,poor,coaching,low,easy,32.3
+2933,18,other,diploma,2.33,84.4,no,6.8,poor,group study,low,hard,32.7
+13785,24,male,bba,4.91,96.1,yes,8.9,poor,coaching,low,hard,66.7
+16076,20,female,b.com,3.44,50.9,yes,7.9,good,online videos,low,easy,40.5
+12951,17,other,ba,5.4,69.9,yes,5.9,poor,online videos,medium,moderate,71.3
+2947,21,male,bba,7.67,42.2,yes,6.6,good,mixed,high,moderate,85.1
+17515,20,female,b.tech,2.02,94.2,yes,5.9,poor,group study,low,moderate,41.1
+11293,23,other,b.sc,0.29,90.0,yes,4.5,good,coaching,high,moderate,44.6
+19607,17,other,b.com,7.5,63.7,no,7.6,poor,group study,low,moderate,55.7
+9391,20,male,diploma,4.26,85.7,yes,9.4,average,self-study,high,easy,62.7
+9294,24,male,b.sc,1.97,56.2,yes,4.2,poor,mixed,high,moderate,47.5
+17748,23,female,ba,2.5,56.2,yes,4.4,good,self-study,high,moderate,54.5
+6163,18,female,ba,7.07,71.1,no,9.4,average,coaching,low,moderate,96.4
+9759,24,other,ba,4.27,64.5,yes,7.3,good,mixed,high,moderate,53.2
+8545,18,female,bba,3.02,70.1,yes,4.9,average,online videos,low,moderate,31.0
+2580,21,male,ba,5.08,76.4,yes,7.2,good,group study,low,easy,70.3
+4388,17,female,b.tech,1.73,49.5,yes,9.1,average,mixed,low,moderate,47.3
+11226,19,female,diploma,4.53,92.0,yes,6.2,good,online videos,high,easy,88.2
+18150,22,male,bca,2.51,68.0,yes,9.4,average,mixed,low,moderate,61.6
+4833,20,female,bca,1.01,43.9,yes,8.6,average,coaching,medium,moderate,53.4
+9392,22,other,b.sc,0.97,47.7,yes,9.0,poor,self-study,low,moderate,19.599
+6706,17,other,b.sc,3.3,91.1,yes,5.6,average,coaching,high,moderate,89.5
+16193,20,other,b.com,5.37,52.7,yes,6.1,good,group study,low,hard,61.1
+2627,24,female,b.tech,6.87,57.0,yes,4.1,poor,mixed,high,easy,64.8
+9099,20,female,bba,7.91,73.3,no,6.7,good,group study,low,easy,100.0
+10873,21,female,b.sc,5.05,67.9,yes,7.3,poor,mixed,medium,hard,79.7
+6889,17,male,b.com,5.12,56.7,yes,9.2,good,coaching,low,hard,73.5
+19365,24,female,b.tech,0.83,71.5,yes,8.5,good,online videos,high,easy,56.4
+5688,18,male,bba,5.45,60.8,no,9.8,average,mixed,high,easy,83.8
+4950,19,female,bba,5.07,80.9,yes,7.4,average,group study,low,moderate,70.2
+14307,23,female,bba,4.65,80.6,yes,9.2,good,online videos,high,easy,79.2
+11331,24,female,b.com,6.83,95.4,yes,5.4,average,online videos,medium,moderate,71.6
+19491,17,male,ba,1.98,77.6,yes,8.8,poor,coaching,low,moderate,59.3
+1806,17,female,b.tech,0.17,98.5,yes,5.9,good,coaching,high,moderate,69.2
+13812,23,male,bca,4.69,87.8,yes,4.6,good,online videos,low,moderate,78.5
+11998,23,other,ba,5.35,53.8,yes,5.8,poor,group study,medium,moderate,66.8
+16481,24,female,ba,6.81,59.2,yes,8.0,good,online videos,medium,hard,76.4
+8509,17,male,b.sc,0.81,64.3,no,9.1,poor,group study,low,moderate,36.5
+19716,21,other,ba,0.83,79.9,yes,4.8,good,online videos,low,moderate,42.2
+8576,18,male,bba,6.32,96.3,yes,7.4,average,group study,low,easy,71.1
+4878,20,female,b.tech,5.49,44.0,no,5.5,good,self-study,high,moderate,64.4
+10880,18,female,bba,0.97,94.9,yes,9.8,good,self-study,medium,moderate,53.6
+1148,23,female,bca,0.93,96.4,yes,9.3,poor,mixed,low,hard,42.1
+6077,19,other,bba,7.0,40.6,yes,6.1,good,coaching,medium,easy,84.7
+6310,18,other,bca,3.0,48.0,yes,4.1,poor,online videos,high,moderate,31.9
+6211,17,female,ba,0.54,74.0,yes,9.9,good,online videos,high,easy,59.6
+16880,18,male,ba,3.23,44.4,yes,7.4,good,coaching,low,easy,50.3
+5715,24,male,bba,0.76,54.8,yes,4.5,poor,online videos,medium,moderate,25.5
+15993,19,male,bca,6.99,45.0,no,5.1,average,group study,medium,easy,50.3
+15144,24,male,b.sc,0.96,80.7,yes,8.6,poor,group study,high,hard,29.0
+13303,21,other,b.com,3.39,43.0,yes,9.9,poor,mixed,medium,hard,64.2
+425,20,other,bca,0.57,74.1,yes,8.9,average,self-study,low,moderate,38.1
+7361,17,male,bba,0.82,98.7,yes,5.4,average,self-study,low,easy,40.2
+19417,22,other,b.tech,4.22,95.9,yes,4.7,good,self-study,high,moderate,82.2
+7242,21,female,b.sc,1.6,85.3,yes,8.5,poor,online videos,low,hard,56.8
+15704,23,female,diploma,6.02,77.7,yes,9.9,average,online videos,high,easy,100.0
+9996,20,male,ba,7.04,43.9,yes,5.6,poor,self-study,low,moderate,63.2
+15487,22,female,b.com,5.44,58.2,yes,8.7,average,self-study,high,moderate,74.6
+2178,20,other,diploma,0.23,41.1,no,9.1,good,online videos,low,moderate,33.4
+7052,20,male,ba,2.0,53.8,no,9.3,average,coaching,high,hard,46.4
+6406,24,female,b.sc,0.08,41.1,yes,6.1,poor,mixed,high,moderate,38.2
+5352,21,male,b.com,2.11,64.5,yes,5.8,poor,group study,high,hard,61.1
+12907,20,other,b.sc,5.0,91.3,no,8.8,poor,mixed,medium,hard,65.3
+1607,18,male,bba,0.55,57.8,yes,6.0,average,group study,high,hard,48.2
+3063,20,other,bca,2.63,78.5,yes,6.2,poor,coaching,low,moderate,61.5
+17403,18,male,b.tech,2.6,85.8,yes,6.7,poor,online videos,medium,moderate,54.6
+3489,20,other,b.tech,1.26,80.9,no,6.1,average,group study,high,moderate,41.9
+4202,22,male,bca,5.83,78.4,yes,5.7,average,coaching,low,easy,76.3
+18506,22,female,bba,2.28,64.2,yes,8.7,poor,self-study,medium,moderate,49.1
+17688,21,male,b.sc,0.15,70.5,yes,8.0,poor,online videos,low,hard,19.599
+16599,17,male,b.com,0.86,84.9,yes,7.3,average,coaching,medium,hard,31.1
+2806,24,male,ba,2.43,97.2,yes,5.6,poor,coaching,low,moderate,59.3
+12350,20,other,bba,0.15,77.0,yes,9.5,poor,mixed,high,hard,55.3
+18690,22,female,bba,2.72,83.9,no,7.8,good,mixed,medium,moderate,69.4
+6249,17,other,b.tech,7.08,55.5,yes,8.8,poor,group study,medium,moderate,58.4
+9705,17,other,diploma,2.16,69.4,yes,8.1,good,coaching,low,easy,59.4
+6915,18,male,diploma,6.78,42.2,yes,7.9,poor,group study,medium,easy,62.6
+14038,17,female,bca,3.93,50.0,yes,8.2,good,coaching,low,moderate,64.2
+4032,21,male,ba,0.57,64.3,yes,8.3,average,online videos,high,easy,44.6
+4450,24,male,b.com,2.21,47.8,no,5.8,average,group study,low,hard,27.2
+11263,22,female,bba,2.81,75.4,yes,9.6,good,coaching,medium,hard,74.1
+18577,24,other,bba,7.91,82.7,no,6.4,poor,online videos,high,hard,90.4
+3529,18,male,ba,7.39,56.3,yes,4.9,poor,coaching,low,easy,81.4
+18788,18,female,bba,1.63,48.6,yes,8.1,average,self-study,high,hard,42.7
+15570,20,female,b.sc,5.64,83.9,yes,8.4,poor,mixed,low,moderate,63.9
+17683,20,other,bca,7.39,55.3,yes,5.9,poor,online videos,low,easy,73.0
+2320,23,male,b.sc,3.73,55.1,no,8.2,average,group study,high,moderate,64.8
+12784,22,other,bca,3.17,97.2,yes,7.4,poor,group study,low,moderate,57.6
+8100,22,male,b.sc,3.01,44.9,yes,9.0,good,online videos,low,hard,57.0
+3510,19,other,bba,5.53,40.6,yes,9.1,good,mixed,medium,hard,57.8
+11341,24,male,b.sc,0.08,43.3,yes,8.0,average,self-study,high,moderate,27.2
+8166,22,female,ba,4.53,40.6,yes,9.7,average,online videos,medium,moderate,47.5
+5395,21,female,diploma,7.41,95.5,yes,5.5,good,group study,high,easy,100.0
+8026,24,other,diploma,1.29,43.2,yes,9.1,poor,coaching,high,moderate,35.7
+4394,17,male,bba,4.63,44.5,yes,6.0,average,online videos,low,moderate,33.5
+4591,22,female,b.tech,4.09,67.9,no,7.7,average,coaching,low,hard,56.5
+16145,24,male,b.sc,2.04,75.3,yes,5.1,average,group study,high,moderate,45.6
+1053,21,other,b.com,6.54,78.2,yes,6.4,good,group study,medium,easy,82.4
+10331,19,female,b.sc,5.03,85.7,no,6.8,average,coaching,low,easy,62.1
+16862,17,female,b.sc,6.72,52.3,no,8.0,good,mixed,low,moderate,72.2
+2579,24,male,b.com,1.2,56.9,yes,8.7,poor,mixed,medium,moderate,27.7
+10505,20,other,ba,2.86,76.3,yes,6.6,poor,self-study,medium,moderate,41.9
+19883,23,female,diploma,0.46,86.9,no,4.7,good,coaching,low,moderate,44.1
+8353,19,other,diploma,6.95,70.5,yes,9.8,poor,coaching,medium,easy,86.7
+17459,24,male,bca,1.98,42.6,yes,7.7,poor,coaching,medium,easy,31.1
+19376,23,female,bca,6.09,71.5,no,9.4,average,online videos,low,easy,88.8
+4725,19,male,b.sc,6.78,97.9,yes,6.4,poor,online videos,high,easy,90.7
+18919,20,male,b.sc,6.93,89.2,yes,4.3,average,coaching,medium,easy,97.4
+2233,24,female,bca,3.69,57.9,yes,7.9,average,mixed,medium,easy,63.7
+2778,24,male,bca,4.13,41.0,yes,8.8,poor,self-study,medium,easy,44.5
+15132,24,female,bba,2.16,71.6,yes,5.8,average,self-study,low,hard,48.2
+1291,18,male,b.sc,3.92,63.5,no,4.6,good,online videos,high,moderate,76.4
+14762,19,other,b.sc,3.84,81.4,yes,5.5,good,mixed,low,moderate,71.2
+2208,23,female,b.sc,1.63,77.3,yes,8.1,poor,self-study,low,moderate,40.3
+3450,20,male,b.sc,3.64,46.2,yes,9.5,good,group study,medium,hard,40.3
+15250,20,other,b.sc,2.3,72.9,yes,7.6,good,group study,low,easy,46.2
+9510,24,other,b.tech,4.14,82.6,no,8.3,poor,online videos,low,easy,52.4
+3036,24,female,bca,4.85,71.0,yes,8.5,average,mixed,medium,moderate,82.1
+16263,24,male,ba,1.7,52.7,yes,8.6,average,online videos,low,moderate,43.5
+16818,24,male,diploma,1.61,76.5,yes,4.6,good,mixed,low,easy,32.8
+15338,22,female,bba,0.82,80.3,yes,5.2,poor,online videos,low,easy,40.7
+10183,17,male,ba,7.49,49.2,yes,8.5,average,online videos,medium,moderate,82.6
+2999,20,female,bba,0.76,47.9,yes,9.6,poor,group study,medium,moderate,19.599
+6760,24,other,bba,3.28,83.6,no,7.0,average,mixed,high,moderate,75.4
+2266,17,male,b.com,2.21,53.3,no,8.7,good,coaching,high,moderate,77.1
+7338,20,female,bba,0.64,84.0,yes,4.3,good,group study,low,easy,37.9
+10677,19,male,bba,1.85,59.4,yes,5.9,poor,mixed,high,moderate,54.3
+4506,20,other,bba,4.05,97.3,yes,8.8,good,group study,high,easy,100.0
+18427,20,female,bba,2.58,68.5,yes,6.8,average,coaching,high,hard,71.1
+19202,21,female,ba,1.76,96.8,no,6.0,average,mixed,low,moderate,56.0
+6693,23,female,ba,3.88,59.1,no,4.7,poor,online videos,high,hard,59.4
+14802,21,other,ba,2.85,41.5,yes,4.7,poor,coaching,high,moderate,57.3
+14031,23,female,diploma,1.27,49.2,yes,8.2,good,coaching,high,easy,56.9
+3107,23,other,b.com,0.22,76.8,no,6.9,average,coaching,low,moderate,32.5
+222,20,female,diploma,6.34,71.9,yes,9.8,average,mixed,medium,hard,84.6
+18357,21,other,ba,0.14,88.5,yes,6.7,average,self-study,medium,hard,60.5
+11826,21,male,bba,1.33,61.7,yes,9.6,average,mixed,low,moderate,62.2
+3051,23,male,bca,1.43,62.9,yes,9.5,average,coaching,high,moderate,45.9
+4286,23,other,diploma,7.24,60.2,yes,7.5,poor,coaching,high,easy,87.7
+17542,17,female,b.com,6.97,49.2,yes,9.1,good,self-study,high,easy,87.0
+12247,18,other,bba,1.53,96.6,yes,6.2,average,self-study,high,moderate,57.4
+211,19,male,b.tech,4.62,56.5,yes,6.3,average,online videos,low,moderate,40.2
+18239,23,other,bca,5.69,60.9,yes,9.0,good,group study,medium,moderate,82.3
+1912,24,other,diploma,4.1,48.9,yes,5.7,poor,online videos,medium,hard,35.8
+500,20,other,b.com,2.91,82.4,yes,5.5,good,self-study,low,easy,71.0
+5000,20,male,b.com,2.25,76.4,yes,9.0,good,online videos,medium,moderate,78.5
+17918,17,other,b.tech,6.91,48.1,yes,7.5,average,coaching,low,easy,61.8
+17267,24,male,ba,2.38,88.5,yes,8.5,good,self-study,medium,easy,68.4
+8749,24,male,bca,6.66,85.0,yes,5.9,average,self-study,low,hard,100.0
+13684,24,female,b.com,6.9,61.8,yes,4.2,poor,coaching,low,easy,79.6
+181,24,female,b.sc,2.37,47.0,yes,4.1,average,group study,medium,moderate,35.4
+18927,18,male,b.com,1.22,63.3,yes,9.9,poor,group study,medium,moderate,35.7
+13685,17,other,b.tech,5.45,92.7,yes,8.0,poor,online videos,medium,moderate,81.2
+12001,21,other,b.sc,1.23,80.0,yes,6.2,good,online videos,medium,easy,33.9
+18843,20,female,b.tech,6.64,69.7,yes,4.4,good,coaching,medium,easy,82.6
+11795,18,female,bca,4.84,49.6,yes,6.1,poor,coaching,low,easy,46.2
+7268,20,male,b.sc,2.27,42.5,yes,5.9,average,self-study,high,easy,50.4
+2421,19,male,bca,2.36,46.9,no,5.9,average,self-study,medium,easy,34.0
+15826,20,male,bca,0.65,83.1,yes,6.4,good,coaching,high,moderate,66.0
+18203,24,male,b.com,5.15,64.0,yes,8.6,average,self-study,high,hard,69.9
+15635,19,male,diploma,6.7,97.5,yes,7.3,average,coaching,medium,moderate,98.1
+14889,22,other,b.com,4.45,74.6,yes,7.5,good,online videos,high,easy,76.5
+467,18,other,b.tech,5.2,92.5,yes,9.5,poor,self-study,low,moderate,66.6
+15058,20,female,b.tech,4.25,44.1,yes,6.7,good,mixed,high,easy,83.0
+60,22,female,b.sc,2.45,83.7,no,6.9,good,self-study,medium,moderate,70.5
+4203,19,other,bba,2.47,41.4,yes,7.0,average,group study,low,easy,22.5
+18077,24,female,b.tech,3.19,85.3,yes,7.7,poor,online videos,high,easy,70.3
+7485,17,female,b.com,2.79,75.9,yes,9.6,poor,coaching,low,moderate,69.6
+1581,19,male,b.com,0.08,46.4,yes,5.5,average,online videos,medium,moderate,29.4
+7285,17,male,diploma,5.41,86.1,no,7.3,poor,online videos,high,hard,63.4
+19828,19,other,b.sc,1.15,74.0,yes,7.6,average,online videos,high,moderate,58.7
+16234,21,male,b.tech,7.19,63.4,yes,8.2,average,coaching,low,easy,83.3
+9394,20,male,diploma,3.87,99.4,yes,4.1,poor,mixed,high,easy,74.4
+2699,18,male,b.com,6.05,79.8,yes,4.8,poor,self-study,medium,moderate,78.7
+4565,24,other,ba,2.31,91.2,no,4.8,poor,mixed,low,hard,49.9
+11404,17,other,b.tech,2.35,79.5,yes,9.0,average,self-study,medium,easy,55.5
+4200,18,female,b.tech,0.74,53.4,yes,9.5,good,coaching,low,moderate,36.7
+19839,23,other,diploma,3.0,89.2,yes,9.9,good,mixed,low,easy,65.0
+14903,22,male,bba,7.46,80.4,yes,8.7,poor,mixed,low,hard,80.1
+7158,22,other,b.com,4.01,46.5,yes,4.9,poor,group study,low,moderate,33.4
+2974,24,other,bca,4.13,61.3,yes,4.8,poor,coaching,low,moderate,50.3
+7842,18,other,b.tech,0.6,99.1,yes,5.5,poor,mixed,high,hard,52.4
+14767,18,male,ba,1.7,48.0,yes,7.8,average,group study,high,moderate,45.6
+13635,21,female,diploma,2.4,80.2,yes,7.4,poor,self-study,low,easy,39.9
+7696,22,male,b.tech,2.67,64.6,no,6.5,poor,mixed,low,easy,41.6
+5935,23,male,b.com,6.27,48.6,yes,5.0,good,online videos,high,hard,87.2
+13876,21,female,bba,7.87,81.8,yes,4.5,average,mixed,low,easy,90.4
+17226,22,female,b.com,4.6,68.6,yes,8.7,average,group study,low,moderate,66.9
+5216,18,other,diploma,0.22,81.9,yes,7.9,good,mixed,medium,moderate,67.7
+11433,21,male,b.sc,5.07,45.4,yes,8.6,good,coaching,low,moderate,64.8
+11166,19,other,ba,4.99,86.4,yes,4.2,poor,group study,medium,hard,65.5
+11366,18,male,bba,2.92,49.3,yes,7.6,poor,coaching,high,hard,58.8
+6627,23,female,diploma,0.65,54.5,no,6.9,good,self-study,low,hard,39.1
+3596,19,female,bba,6.24,63.2,yes,9.7,poor,online videos,low,hard,76.7
+13086,24,female,ba,0.55,93.6,yes,6.8,good,coaching,medium,easy,79.9
+5273,18,other,bba,3.52,70.7,yes,7.8,good,online videos,high,moderate,71.1
+5628,17,male,bba,0.79,76.8,yes,4.8,poor,self-study,medium,moderate,30.5
+12011,18,other,ba,1.67,95.8,yes,7.5,poor,self-study,low,easy,42.4
+14842,17,female,b.sc,6.78,94.0,yes,8.5,poor,coaching,medium,moderate,100.0
+10073,19,other,diploma,7.51,56.9,yes,7.3,average,online videos,high,moderate,87.3
+14752,18,other,b.tech,6.79,59.8,yes,6.6,poor,online videos,medium,easy,67.1
+7325,20,other,bba,6.82,74.9,yes,4.4,average,coaching,high,easy,81.4
+8633,20,male,bca,3.99,44.4,yes,7.7,average,self-study,high,moderate,56.1
+14109,17,female,diploma,1.1,81.6,yes,4.1,poor,coaching,low,moderate,45.8
+1298,22,male,ba,5.83,92.5,no,8.8,good,coaching,high,moderate,100.0
+10367,18,other,diploma,0.59,63.6,yes,5.4,average,self-study,high,moderate,23.0
+13249,21,female,b.tech,3.4,93.0,yes,8.9,good,online videos,high,moderate,68.3
+201,19,female,b.sc,6.39,73.9,yes,8.1,poor,mixed,high,moderate,84.0
+1457,24,male,ba,7.61,43.6,no,9.9,average,self-study,low,moderate,62.1
+10560,22,other,bca,5.99,72.2,no,7.0,average,online videos,high,easy,78.8
+9801,22,female,ba,3.51,59.9,no,8.7,good,coaching,medium,moderate,72.4
+8454,21,male,b.com,7.53,72.3,yes,8.1,poor,coaching,high,moderate,84.8
+9652,20,other,b.com,2.14,82.7,yes,4.1,poor,online videos,high,hard,45.4
+8893,22,female,b.sc,7.24,62.6,yes,6.4,good,self-study,medium,moderate,53.2
+18545,24,male,ba,2.89,77.1,yes,5.4,good,group study,high,moderate,63.9
+10264,18,male,diploma,6.25,47.0,yes,9.3,good,self-study,low,easy,78.2
+1203,24,female,ba,7.29,94.4,yes,7.3,poor,group study,medium,moderate,91.4
+15968,24,other,diploma,4.18,73.6,yes,6.1,good,online videos,high,moderate,69.2
+3644,20,male,ba,0.69,51.3,yes,7.8,average,group study,high,moderate,38.9
+10991,19,other,diploma,5.73,52.6,yes,6.3,good,online videos,high,easy,76.3
+10724,17,female,ba,2.92,90.1,yes,8.8,average,online videos,low,easy,44.6
+10357,17,male,bca,3.64,52.3,yes,9.7,average,group study,medium,hard,63.7
+3129,21,female,b.sc,0.68,71.6,yes,8.8,poor,coaching,medium,easy,65.1
+4352,21,male,b.tech,5.69,43.6,yes,6.3,average,mixed,medium,moderate,78.4
+19403,21,other,diploma,7.37,79.3,yes,6.4,good,self-study,medium,moderate,89.8
+15879,17,female,b.com,5.35,94.7,yes,4.4,poor,self-study,medium,hard,44.6
+3012,21,male,b.tech,3.31,73.3,yes,4.1,poor,group study,medium,hard,58.5
+5091,24,female,diploma,1.24,73.3,yes,5.6,average,self-study,low,hard,41.9
+17108,22,other,bba,0.2,68.5,yes,7.8,good,group study,high,easy,64.2
+2622,20,female,diploma,1.6,50.0,yes,4.6,good,mixed,medium,easy,35.7
+1535,23,female,b.tech,0.54,81.1,yes,9.6,average,mixed,high,moderate,43.8
+18179,22,other,bca,1.28,55.1,yes,6.0,poor,coaching,medium,easy,24.4
+3837,18,other,b.tech,0.33,45.2,no,8.6,poor,self-study,high,moderate,37.0
+17767,17,other,diploma,0.35,43.6,yes,7.4,average,online videos,high,easy,36.8
+11521,22,male,b.sc,6.55,53.6,no,7.6,good,mixed,low,moderate,72.4
+16081,21,other,b.sc,2.46,56.6,yes,8.5,poor,online videos,high,moderate,42.9
+15860,22,other,ba,5.26,82.7,yes,8.8,poor,online videos,high,moderate,77.5
+8551,24,other,ba,3.66,70.4,yes,4.5,average,online videos,medium,hard,44.6
+15663,20,male,b.sc,1.49,84.4,no,4.2,poor,coaching,high,easy,44.0
+5130,21,female,bba,6.42,47.6,yes,4.4,good,coaching,medium,easy,76.8
+14009,17,other,diploma,6.92,70.9,yes,9.1,good,coaching,low,moderate,92.6
+3353,17,female,diploma,0.58,49.4,yes,5.5,poor,mixed,low,hard,33.7
+13455,19,other,bba,0.76,54.1,yes,6.7,average,self-study,medium,moderate,37.3
+13759,24,male,ba,4.79,54.3,yes,9.7,average,online videos,medium,moderate,65.9
+4904,22,other,b.com,3.04,66.3,yes,5.0,average,group study,low,moderate,39.2
+2931,18,male,b.tech,5.6,75.7,yes,9.1,good,group study,low,easy,75.3
+1088,24,other,bca,5.58,46.4,yes,5.2,poor,group study,high,moderate,70.8
+15245,20,female,diploma,4.77,49.8,yes,5.5,poor,online videos,high,hard,43.8
+12089,23,male,bca,4.77,95.6,yes,6.0,good,online videos,high,easy,69.7
+4885,17,female,b.sc,5.6,43.9,yes,5.9,average,coaching,medium,moderate,84.4
+14634,23,other,ba,4.61,79.5,yes,4.5,average,online videos,low,moderate,52.1
+7948,18,female,ba,2.34,76.9,yes,6.5,good,group study,high,moderate,52.5
+16824,21,female,ba,6.67,56.9,yes,6.9,good,coaching,low,moderate,63.8
+15820,19,other,b.com,7.69,56.7,yes,5.2,poor,mixed,high,hard,73.2
+5392,18,other,ba,0.48,59.5,yes,9.4,good,online videos,high,easy,39.4
+7246,20,other,b.sc,4.85,92.9,yes,6.5,poor,self-study,medium,moderate,69.6
+15683,20,male,b.tech,0.72,63.5,yes,5.6,good,mixed,medium,moderate,36.1
+6280,20,other,b.tech,1.11,60.2,yes,7.9,average,online videos,low,easy,31.9
+5195,19,other,b.tech,4.15,77.7,yes,4.8,average,coaching,low,hard,53.1
+14223,21,male,ba,0.23,75.1,yes,6.0,good,self-study,medium,moderate,49.4
+17122,19,female,ba,1.52,57.9,yes,8.2,good,online videos,low,moderate,36.1
+19673,21,other,bba,1.34,68.9,yes,4.4,poor,self-study,high,moderate,31.1
+17186,23,female,bba,4.9,45.1,no,4.4,good,online videos,low,easy,57.1
+1730,17,female,b.tech,1.81,94.1,yes,6.5,average,self-study,low,moderate,71.5
+19916,18,female,b.sc,4.22,51.5,yes,6.6,poor,online videos,high,moderate,60.9
+19842,18,male,b.tech,0.95,99.4,yes,7.4,poor,group study,medium,moderate,63.4
+13337,17,male,b.tech,3.0,59.1,no,7.5,average,self-study,high,moderate,51.9
+3311,21,male,b.tech,3.29,57.9,yes,8.8,good,online videos,low,hard,71.2
+12572,21,other,b.sc,5.51,55.4,no,8.7,average,group study,low,easy,57.2
+3416,20,male,bca,4.35,44.2,yes,8.3,average,group study,low,easy,44.0
+5862,21,female,b.tech,3.43,56.9,yes,7.8,average,group study,high,hard,82.4
+15238,22,other,b.tech,4.41,53.1,yes,8.4,average,group study,low,easy,69.9
+6260,24,male,b.com,1.85,49.6,yes,9.6,average,online videos,medium,hard,49.0
+9620,21,male,b.tech,2.94,66.3,yes,5.1,average,online videos,low,moderate,59.2
+5864,18,female,bca,7.3,51.9,yes,7.5,good,coaching,medium,hard,94.8
+9807,24,other,ba,3.12,95.5,yes,7.0,good,online videos,low,moderate,71.6
+5850,17,other,ba,7.36,63.4,yes,4.8,poor,self-study,low,moderate,67.7
+2755,24,male,b.tech,1.95,70.1,yes,5.5,average,self-study,low,moderate,28.6
+13644,24,other,bba,6.8,77.4,yes,9.1,average,mixed,high,easy,70.3
+10193,17,other,bca,2.79,89.2,no,7.9,good,group study,medium,easy,69.5
+8036,20,male,b.sc,5.64,55.1,yes,6.7,poor,group study,high,easy,54.8
+16837,18,female,b.sc,7.46,80.0,yes,7.5,average,coaching,low,hard,100.0
+15028,22,female,bba,1.56,75.6,yes,5.7,average,online videos,medium,easy,40.4
+10762,18,male,diploma,5.46,99.2,no,5.9,average,coaching,low,easy,90.8
+7376,24,male,b.com,2.61,69.3,no,7.9,good,self-study,high,easy,68.8
+10710,24,male,ba,4.77,86.1,yes,8.0,average,mixed,low,moderate,72.5
+5999,23,other,b.tech,7.68,71.2,yes,5.3,poor,group study,high,hard,70.4
+12265,19,other,bba,2.13,81.2,yes,4.6,poor,group study,medium,easy,58.4
+19734,17,other,b.com,7.05,42.5,yes,6.9,poor,coaching,medium,moderate,74.8
+19733,21,other,bca,6.99,90.4,yes,8.2,good,group study,low,hard,74.8
+1283,20,female,b.sc,4.69,86.0,yes,8.2,poor,coaching,medium,easy,73.8
+5291,23,other,ba,5.5,48.2,yes,7.3,poor,self-study,high,hard,70.5
+10785,23,male,diploma,3.43,47.4,yes,9.9,average,online videos,high,easy,52.3
+11068,19,other,bca,0.29,59.3,yes,6.0,poor,self-study,high,easy,22.6
+19689,21,male,ba,1.3,53.3,no,8.2,good,online videos,low,hard,31.4
+4022,17,other,ba,6.83,71.7,no,8.0,average,coaching,high,easy,83.3
+16142,20,other,diploma,2.59,68.5,yes,9.6,good,coaching,low,moderate,59.2
+6827,21,other,b.tech,5.13,49.4,yes,5.4,poor,mixed,high,moderate,67.4
+18362,20,female,b.tech,4.48,87.9,yes,4.2,good,group study,medium,hard,66.1
+12085,23,other,b.sc,4.05,92.2,no,6.2,average,coaching,medium,moderate,91.8
+11052,24,other,b.tech,5.06,93.4,no,9.0,poor,mixed,medium,hard,80.3
+8332,18,female,b.sc,5.49,90.9,yes,4.5,poor,group study,high,moderate,88.8
+10079,24,other,bca,0.99,66.6,yes,5.2,good,coaching,medium,moderate,47.3
+8994,20,other,b.sc,4.77,76.9,yes,7.4,average,coaching,high,easy,72.8
+9819,20,other,ba,5.66,68.2,yes,4.6,good,mixed,low,moderate,59.5
+16875,20,other,bba,3.58,62.5,yes,7.2,poor,group study,low,hard,47.6
+10647,19,male,b.com,0.83,80.8,yes,7.4,average,online videos,medium,moderate,55.0
+13994,22,other,bba,1.17,45.5,yes,8.3,good,online videos,high,moderate,30.4
+19991,19,other,diploma,2.1,60.9,yes,8.1,poor,self-study,low,hard,37.8
+9711,18,female,diploma,3.35,65.3,yes,7.2,average,mixed,high,easy,64.6
+6897,19,male,bca,4.07,81.9,yes,5.2,good,online videos,medium,easy,65.8
+15371,22,male,ba,1.57,96.9,yes,8.7,average,self-study,low,moderate,52.7
+11680,18,other,b.com,0.08,40.6,yes,7.4,average,coaching,medium,moderate,50.9
+8963,24,other,diploma,6.08,87.0,yes,8.2,good,self-study,low,hard,57.6
+5475,17,male,b.sc,2.88,92.5,yes,5.2,good,self-study,low,easy,65.0
+6403,19,male,bca,0.38,66.9,yes,9.7,poor,group study,medium,moderate,67.8
+3726,24,other,b.com,1.98,87.7,yes,5.0,poor,mixed,high,easy,57.3
+3740,23,male,ba,3.16,81.6,no,6.8,poor,mixed,low,moderate,65.7
+10222,18,male,bca,0.44,88.2,yes,8.5,average,group study,high,moderate,64.6
+13085,18,other,b.sc,4.17,58.3,yes,5.0,good,self-study,low,moderate,41.4
+8733,20,male,diploma,3.71,91.7,yes,8.9,poor,coaching,low,easy,50.2
+12492,17,female,b.com,0.94,61.0,yes,7.7,average,online videos,medium,easy,37.1
+6776,24,other,b.com,0.81,66.9,yes,6.1,good,mixed,medium,easy,58.0
+19982,20,male,diploma,6.84,77.9,yes,9.8,poor,mixed,high,moderate,93.1
+4292,24,male,b.sc,0.11,88.6,yes,9.7,good,group study,low,easy,44.9
+3580,17,male,diploma,0.98,51.5,yes,4.3,good,self-study,high,moderate,39.9
+12569,24,other,diploma,1.55,52.7,no,4.8,poor,coaching,low,hard,38.8
+929,20,other,ba,3.76,75.3,yes,8.8,average,online videos,high,easy,41.9
+6530,19,male,b.sc,0.36,40.6,yes,5.3,poor,coaching,medium,moderate,25.1
+3845,24,other,diploma,4.81,79.2,yes,6.2,average,online videos,high,hard,76.2
+18144,19,other,bca,5.34,83.7,yes,7.6,good,coaching,low,moderate,85.3
+10868,20,other,bba,7.21,42.3,yes,5.9,good,mixed,low,moderate,72.1
+17780,17,other,b.com,5.74,62.1,yes,8.6,average,online videos,medium,hard,75.4
+17401,20,female,b.com,4.7,43.3,yes,6.1,good,mixed,low,moderate,42.7
+6149,17,male,bca,5.14,95.6,yes,4.6,poor,coaching,low,easy,81.0
+8320,18,other,bca,6.48,47.6,no,7.3,good,coaching,high,moderate,81.5
+1816,17,male,diploma,1.52,69.3,no,7.2,good,group study,medium,easy,51.9
+6073,22,other,bba,7.04,92.4,yes,8.3,poor,group study,low,hard,88.2
+9301,18,female,bca,7.32,44.3,yes,4.6,poor,group study,medium,moderate,58.2
+11848,19,female,diploma,7.02,56.2,yes,9.8,poor,online videos,medium,moderate,62.6
+19588,17,male,bba,2.78,48.0,yes,9.9,average,group study,medium,hard,43.4
+9458,21,other,bba,0.59,56.9,yes,5.1,average,mixed,medium,moderate,41.0
+5834,18,female,diploma,6.68,42.8,yes,8.9,poor,online videos,medium,moderate,66.0
+19265,22,male,diploma,5.65,75.8,yes,6.4,good,self-study,high,moderate,84.7
+15022,21,other,diploma,7.58,90.2,yes,8.0,good,online videos,low,moderate,79.5
+14378,18,male,b.sc,1.95,43.3,yes,5.3,poor,online videos,low,hard,19.599
+8883,19,other,diploma,0.94,85.0,yes,5.6,average,self-study,high,moderate,42.6
+14305,17,female,bca,4.22,47.3,yes,5.6,average,coaching,low,easy,45.0
+10490,20,other,b.sc,0.87,62.3,yes,4.7,average,online videos,high,moderate,33.7
+11886,18,male,b.com,7.63,60.5,yes,8.8,poor,self-study,medium,moderate,67.6
+14219,20,female,diploma,6.31,47.6,no,6.8,poor,mixed,high,moderate,75.8
+5904,23,male,bca,4.98,68.3,yes,6.9,good,self-study,high,moderate,75.5
+7665,23,other,diploma,1.44,85.5,yes,9.2,average,group study,medium,moderate,43.7
+14010,24,female,b.sc,5.34,90.3,yes,9.4,good,self-study,high,moderate,68.9
+2130,19,male,b.com,3.67,45.8,yes,9.5,average,group study,medium,easy,47.1
+19863,23,male,b.tech,3.08,85.9,no,7.7,average,coaching,low,moderate,78.8
+7780,19,male,b.sc,4.57,93.3,yes,6.7,poor,online videos,medium,easy,70.7
+2741,18,male,b.tech,0.66,45.7,yes,5.9,average,coaching,low,moderate,39.9
+17471,17,female,ba,3.38,62.4,yes,4.5,poor,mixed,low,easy,55.1
+8814,24,male,b.com,5.88,89.8,no,7.3,poor,mixed,medium,moderate,87.4
+15173,17,other,bba,3.8,57.6,yes,7.4,good,coaching,low,easy,67.1
+10780,24,male,diploma,5.59,92.4,yes,5.2,average,coaching,low,easy,87.8
+1351,17,male,b.com,6.51,57.2,yes,7.9,average,coaching,low,hard,88.4
+9059,24,female,b.com,0.54,77.7,yes,9.0,average,coaching,high,hard,31.2
+13496,21,other,bca,1.16,92.2,yes,5.7,average,online videos,low,easy,31.5
+9923,22,female,ba,7.39,80.1,no,5.9,poor,mixed,low,hard,56.5
+1523,18,other,ba,7.21,95.5,no,5.2,good,online videos,high,moderate,80.2
+6761,17,male,ba,3.44,61.6,yes,6.5,poor,group study,medium,hard,62.0
+18863,22,male,bba,6.12,42.3,yes,9.7,good,mixed,medium,hard,89.7
+2798,21,male,diploma,4.29,96.2,yes,7.5,good,group study,high,easy,77.5
+7041,21,female,b.sc,1.18,93.8,yes,6.8,good,online videos,low,moderate,43.6
+2993,18,other,ba,6.06,89.4,yes,7.0,poor,mixed,high,moderate,100.0
+13752,21,male,bca,2.12,70.2,yes,7.3,average,online videos,medium,hard,52.5
+15060,18,female,diploma,0.4,92.9,yes,4.6,poor,group study,medium,moderate,41.0
+15067,22,female,b.com,0.35,94.0,yes,9.4,good,online videos,high,moderate,52.1
+9756,22,female,ba,7.78,77.2,yes,6.1,average,coaching,high,hard,100.0
+9153,19,female,b.sc,3.26,68.9,yes,6.1,poor,online videos,medium,easy,59.1
+7458,22,male,b.sc,1.34,86.1,yes,9.0,average,mixed,low,easy,38.7
+7684,22,female,ba,4.63,86.9,yes,6.2,average,self-study,medium,moderate,69.5
+17822,19,male,b.tech,1.19,85.9,yes,7.9,poor,mixed,high,moderate,42.4
+10262,19,other,b.sc,2.47,54.0,yes,6.3,average,online videos,high,easy,42.4
+12965,24,male,diploma,7.54,84.7,yes,6.3,average,group study,low,moderate,65.2
+89,23,male,bca,0.72,92.9,yes,6.9,good,online videos,low,moderate,56.6
