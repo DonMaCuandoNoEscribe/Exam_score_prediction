@@ -4,7 +4,7 @@ Predict student exam performance using machine learning. Built as a portfolio pr
 
 ## 🚀 Live Demo
 
-**Try it:** [Student Score Predictor](https://your-app.onrender.com) *(Update with your Render URL)*
+**Try it:** [Student Score Predictor](https://exam-score-prediction-yrci.onrender.com/)
 
 ## ✨ Features
 
