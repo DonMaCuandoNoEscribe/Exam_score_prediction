@@ -1,19 +1,19 @@
-# 🎓 Student Exam Score Predictor
+# Student Exam Score Predictor
 
 Predict student exam performance using machine learning. Built as a portfolio project demonstrating end-to-end MLOps.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Try it:** [Student Score Predictor](https://exam-score-prediction-yrci.onrender.com/)
 
 ## ✨ Features
 
-- 🎯 **ML Model**: ElasticNet regression (R² = 0.73, MAE = 7.8)
-- 🖥️ **Frontend**: Modern dark theme with animated UI
-- ⚡ **Backend**: FastAPI serving predictions
-- 🐳 **Deployment**: Docker on Render
+- **ML Model**: ElasticNet regression (R² = 0.73, MAE = 7.8)
+- **Frontend**: Modern dark theme with animated UI
+- **Backend**: FastAPI serving predictions
+- **Deployment**: Docker on Render
 
-## 📊 Model Details
+## Model Details
 
 | Metric | Value |
 |--------|-------|
@@ -24,7 +24,7 @@ Predict student exam performance using machine learning. Built as a portfolio pr
 | Features | 29 (20 selected) |
 | Training Data | 20,000 students |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **ML**: Python, Scikit-learn, Pandas
 - **Backend**: FastAPI, Pydantic, Uvicorn
@@ -49,7 +49,7 @@ Predict student exam performance using machine learning. Built as a portfolio pr
 └── requirements.txt
 ```
 
-## 🏃 Run Locally
+##  Run Locally
 
 ```bash
 # Install dependencies
@@ -61,7 +61,7 @@ uvicorn backend.main:app --reload --port 8000
 # Open http://localhost:8000
 ```
 
-## 📦 Deploy to Render
+## Deploy to Render
 
 1. Fork this repo
 2. Create new Web Service on Render
@@ -69,14 +69,14 @@ uvicorn backend.main:app --reload --port 8000
 4. Select Docker environment
 5. Deploy!
 
-## 📄 Dataset
+## Dataset
 
 Based on [Kaggle Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset)
 
-## 👤 Author
+## Author
 
-Built by [DonMaCuandoNoEscribe](https://github.com/DonMaCuandoNoEscribe)
+Built by Jose Perez [DonMaCuandoNoEscribe](https://github.com/DonMaCuandoNoEscribe)
 
 ---
 
-*Portfolio project demonstrating MLOps best practices*
+*Portfolio project*

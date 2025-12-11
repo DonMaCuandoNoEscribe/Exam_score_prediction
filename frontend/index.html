@@ -38,10 +38,10 @@
                     </div>
                 </div>
                 <div class="logo-text">
-                    <h1>Student Score Predictor</h1>
+                    <h1 data-i18n="header.title">Student Score Predictor</h1>
                     <div class="logo-badge">
                         <span class="badge-dot"></span>
-                        Portfolio Project
+                        <span data-i18n="header.badge">Portfolio Project</span>
                     </div>
                 </div>
             </div>
@@ -54,32 +54,37 @@
                         <circle cx="12" cy="12" r="10"/>
                         <path d="M12 16v-4M12 8h.01"/>
                     </svg>
-                    About
+                    <span data-i18n="nav.about">About</span>
                 </button>
                 <button class="pill-btn" data-page="stack">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M12 2L2 7l10 5 10-5-10-5z"/>
                         <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
                     </svg>
-                    Stack
+                    <span data-i18n="nav.stack">Stack</span>
                 </button>
                 <button class="pill-btn" data-page="deploy">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                     </svg>
-                    Deploy
+                    <span data-i18n="nav.deploy">Deploy</span>
                 </button>
                 <button class="pill-btn" data-page="predict">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
                     </svg>
-                    Predict
+                    <span data-i18n="nav.predict">Predict</span>
                 </button>
             </nav>
 
             <div class="header-status" id="serverStatus">
                 <span class="status-dot"></span>
                 <span class="status-text">Checking...</span>
+            </div>
+
+            <div class="lang-toggle" id="langToggle">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
             </div>
         </div>
     </header>
@@ -92,13 +97,13 @@
                 <div class="hero-content">
                     <div class="hero-badge">
                         <span class="code-tag">&lt;MLOps/&gt;</span>
-                        End-to-End Machine Learning Pipeline
+                        <span data-i18n="hero.badge">End-to-End Machine Learning Pipeline</span>
                     </div>
                     <h2 class="hero-title">
-                        Predict Student Performance with 
-                        <span class="gradient-text">Machine Learning</span>
+                        <span data-i18n="hero.title">Predict Student Performance with</span> 
+                        <span class="gradient-text" data-i18n="hero.title.gradient">Machine Learning</span>
                     </h2>
-                    <p class="hero-description">
+                    <p class="hero-description" data-i18n="hero.description">
                         A full-stack ML application that helps educators predict student exam scores based on 
                         study habits, attendance patterns, and environmental factors. Built as a portfolio project 
                         demonstrating modern MLOps practices with Docker containerization and cloud deployment.
@@ -106,15 +111,19 @@
                     <div class="hero-stats">
                         <div class="stat-item">
                             <span class="stat-value">20K+</span>
-                            <span class="stat-label">Training Records</span>
+                            <span class="stat-label" data-i18n="stats.records">Training Records</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-value">13</span>
-                            <span class="stat-label">Features Analyzed</span>
+                            <span class="stat-value">20</span>
+                            <span class="stat-label" data-i18n="stats.features">Features Selected</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-value">&gt;0.75</span>
-                            <span class="stat-label">R² Score Target</span>
+                            <span class="stat-value">0.75</span>
+                            <span class="stat-label" data-i18n="stats.target">R² Target</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">0.73</span>
+                            <span class="stat-label" data-i18n="stats.achieved">R² Achieved</span>
                         </div>
                     </div>
                     <div class="hero-cta">
@@ -122,10 +131,10 @@
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
                             </svg>
-                            Try Prediction
+                            <span data-i18n="cta.predict">Try Prediction</span>
                         </button>
                         <button class="cta-btn secondary" onclick="navigateTo('stack')">
-                            View Tech Stack
+                            <span data-i18n="cta.stack">View Tech Stack</span>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
@@ -169,28 +178,28 @@
             <div class="goals-card">
                 <div class="goals-header">
                     <span class="section-tag">// project_goals</span>
-                    <h3>What We're Building</h3>
+                    <h3 data-i18n="goals.title">What We're Building</h3>
                 </div>
                 <div class="goals-grid">
                     <div class="goal-item">
                         <div class="goal-number">01</div>
                         <div class="goal-content">
-                            <h4>Early Intervention</h4>
-                            <p>Identify at-risk students before exams through predictive analytics</p>
+                            <h4 data-i18n="goals.1.title">Early Intervention</h4>
+                            <p data-i18n="goals.1.desc">Identify at-risk students before exams through predictive analytics</p>
                         </div>
                     </div>
                     <div class="goal-item">
                         <div class="goal-number">02</div>
                         <div class="goal-content">
-                            <h4>Data-Driven Decisions</h4>
-                            <p>Empower educators with actionable insights for personalized support</p>
+                            <h4 data-i18n="goals.2.title">Data-Driven Decisions</h4>
+                            <p data-i18n="goals.2.desc">Empower educators with actionable insights for personalized support</p>
                         </div>
                     </div>
                     <div class="goal-item">
                         <div class="goal-number">03</div>
                         <div class="goal-content">
-                            <h4>MLOps Excellence</h4>
-                            <p>Demonstrate end-to-end ML pipeline with Docker & cloud deployment</p>
+                            <h4 data-i18n="goals.3.title">MLOps Excellence</h4>
+                            <p data-i18n="goals.3.desc">Demonstrate end-to-end ML pipeline with Docker & cloud deployment</p>
                         </div>
                     </div>
                 </div>
@@ -201,8 +210,8 @@
         <section class="page page-stack" id="page-stack">
             <div class="section-header">
                 <span class="section-tag">// tech_stack</span>
-                <h3>Built With Modern Tools</h3>
-                <p>Production-ready architecture deployed on Hugging Face Spaces</p>
+                <h3 data-i18n="stack.title">Built With Modern Tools</h3>
+                <p data-i18n="stack.subtitle">Production-ready architecture deployed on Render</p>
             </div>
 
             <!-- Tech Stack Loop with Correct Logos -->
@@ -261,20 +270,15 @@
                             </div>
                             <span>Docker</span>
                         </div>
-                        <!-- Hugging Face -->
+                        <!-- Render -->
                         <div class="tech-item">
-                            <div class="tech-icon huggingface">
-                                <svg viewBox="0 0 128 128">
-                                    <path fill="#FFD21E" d="M64 8C35.3 8 12 31.3 12 60c0 23.3 15.3 43 36.5 49.6V124l15.5-9 15.5 9v-14.4C100.7 103 116 83.3 116 60c0-28.7-23.3-52-52-52z"/>
-                                    <circle fill="#FF9D00" cx="45" cy="56" r="8"/>
-                                    <circle fill="#FF9D00" cx="83" cy="56" r="8"/>
-                                    <circle fill="#3A3A3A" cx="45" cy="54" r="4"/>
-                                    <circle fill="#3A3A3A" cx="83" cy="54" r="4"/>
-                                    <ellipse fill="#FF9D00" cx="64" cy="80" rx="20" ry="12"/>
-                                    <path fill="#3A3A3A" d="M64 88c-8 0-14-3.6-14-8s6-8 14-8 14 3.6 14 8-6 8-14 8z"/>
+                            <div class="tech-icon render">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <rect width="24" height="24" rx="4" fill="#46E3B7"/>
+                                    <path d="M7 7h4v4H7V7zm0 6h4v4H7v-4zm6-6h4v4h-4V7zm0 6h4v4h-4v-4z" fill="#1A1A2E"/>
                                 </svg>
                             </div>
-                            <span>HF Spaces</span>
+                            <span>Render</span>
                         </div>
                         <!-- JavaScript -->
                         <div class="tech-item">
@@ -323,14 +327,13 @@
                             <span>Docker</span>
                         </div>
                         <div class="tech-item">
-                            <div class="tech-icon huggingface">
-                                <svg viewBox="0 0 128 128">
-                                    <path fill="#FFD21E" d="M64 8C35.3 8 12 31.3 12 60c0 23.3 15.3 43 36.5 49.6V124l15.5-9 15.5 9v-14.4C100.7 103 116 83.3 116 60c0-28.7-23.3-52-52-52z"/>
-                                    <circle fill="#FF9D00" cx="45" cy="56" r="8"/>
-                                    <circle fill="#FF9D00" cx="83" cy="56" r="8"/>
+                            <div class="tech-icon render">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <rect width="24" height="24" rx="4" fill="#46E3B7"/>
+                                    <path d="M7 7h4v4H7V7zm0 6h4v4H7v-4zm6-6h4v4h-4V7zm0 6h4v4h-4v-4z" fill="#1A1A2E"/>
                                 </svg>
                             </div>
-                            <span>HF Spaces</span>
+                            <span>Render</span>
                         </div>
                     </div>
                 </div>
@@ -347,8 +350,8 @@
                         </svg>
                     </div>
                     <div class="arch-content">
-                        <h4>Data Science</h4>
-                        <p>EDA, feature engineering, model training</p>
+                        <h4 data-i18n="arch.ds.title">Data Science</h4>
+                        <p data-i18n="arch.ds.desc">EDA, feature engineering, model training</p>
                         <div class="arch-tags">
                             <span>Jupyter</span>
                             <span>Pandas</span>
@@ -365,8 +368,8 @@
                         </svg>
                     </div>
                     <div class="arch-content">
-                        <h4>Backend API</h4>
-                        <p>RESTful endpoints with FastAPI + Pydantic</p>
+                        <h4 data-i18n="arch.api.title">Backend API</h4>
+                        <p data-i18n="arch.api.desc">RESTful endpoints with FastAPI + Pydantic</p>
                         <div class="arch-tags">
                             <span>FastAPI</span>
                             <span>Uvicorn</span>
@@ -383,8 +386,8 @@
                         </svg>
                     </div>
                     <div class="arch-content">
-                        <h4>Frontend UI</h4>
-                        <p>Dynamic forms, real-time predictions</p>
+                        <h4 data-i18n="arch.ui.title">Frontend UI</h4>
+                        <p data-i18n="arch.ui.desc">Dynamic forms, real-time predictions</p>
                         <div class="arch-tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -399,12 +402,12 @@
                         </svg>
                     </div>
                     <div class="arch-content">
-                        <h4>Deployment</h4>
-                        <p>Docker container on Hugging Face Spaces</p>
+                        <h4 data-i18n="arch.deploy.title">Deployment</h4>
+                        <p data-i18n="arch.deploy.desc">Docker container on Render</p>
                         <div class="arch-tags">
                             <span>Docker</span>
-                            <span>HF Spaces</span>
-                            <span>Free</span>
+                            <span>Render</span>
+                            <span data-i18n="arch.deploy.tag">Free Tier</span>
                         </div>
                     </div>
                 </div>
@@ -415,21 +418,22 @@
         <section class="page page-deploy" id="page-deploy">
             <div class="section-header">
                 <span class="section-tag">// deployment</span>
-                <h3>Cloud Deployment</h3>
-                <p>Hosted free on Hugging Face Spaces with Docker SDK</p>
+                <h3 data-i18n="deploy.title">Cloud Deployment</h3>
+                <p data-i18n="deploy.subtitle">Deployed on Render with Docker containerization</p>
             </div>
 
             <!-- Deployment Architecture Diagram -->
             <div class="deploy-diagram">
-                <div class="deploy-box hf-box">
+                <div class="deploy-box render-box">
                     <div class="deploy-box-header">
-                        <svg viewBox="0 0 128 128" class="hf-logo">
-                            <path fill="#FFD21E" d="M64 8C35.3 8 12 31.3 12 60c0 23.3 15.3 43 36.5 49.6V124l15.5-9 15.5 9v-14.4C100.7 103 116 83.3 116 60c0-28.7-23.3-52-52-52z"/>
-                            <circle fill="#FF9D00" cx="45" cy="56" r="8"/>
-                            <circle fill="#FF9D00" cx="83" cy="56" r="8"/>
-                            <ellipse fill="#FF9D00" cx="64" cy="80" rx="20" ry="12"/>
+                        <svg viewBox="0 0 128 128" class="render-logo">
+                            <rect width="128" height="128" rx="20" fill="#46E3B7"/>
+                            <rect x="24" y="24" width="32" height="32" rx="4" fill="#1A1A2E"/>
+                            <rect x="24" y="72" width="32" height="32" rx="4" fill="#1A1A2E"/>
+                            <rect x="72" y="24" width="32" height="32" rx="4" fill="#1A1A2E"/>
+                            <rect x="72" y="72" width="32" height="32" rx="4" fill="#1A1A2E"/>
                         </svg>
-                        <span>Hugging Face Spaces</span>
+                        <span>Render</span>
                     </div>
                     <div class="deploy-container">
                         <div class="docker-badge">
@@ -467,8 +471,8 @@
                             <polyline points="22 4 12 14.01 9 11.01"/>
                         </svg>
                     </div>
-                    <h4>Free Hosting</h4>
-                    <p>Zero cost deployment on HF Spaces with generous limits</p>
+                    <h4 data-i18n="deploy.card1.title">Free Hosting</h4>
+                    <p data-i18n="deploy.card1.desc">Free tier deployment on Render</p>
                 </div>
                 <div class="deploy-card">
                     <div class="deploy-card-icon">
@@ -477,8 +481,8 @@
                             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
                         </svg>
                     </div>
-                    <h4>Docker SDK</h4>
-                    <p>Full control with custom Dockerfile configuration</p>
+                    <h4 data-i18n="deploy.card2.title">Docker SDK</h4>
+                    <p data-i18n="deploy.card2.desc">Full control with custom Dockerfile configuration</p>
                 </div>
                 <div class="deploy-card">
                     <div class="deploy-card-icon">
@@ -487,8 +491,8 @@
                             <polyline points="12 6 12 12 16 14"/>
                         </svg>
                     </div>
-                    <h4>Auto Deploy</h4>
-                    <p>Git push triggers automatic container rebuild</p>
+                    <h4 data-i18n="deploy.card3.title">Auto Deploy</h4>
+                    <p data-i18n="deploy.card3.desc">Git push triggers automatic container rebuild</p>
                 </div>
                 <div class="deploy-card">
                     <div class="deploy-card-icon">
@@ -496,8 +500,8 @@
                             <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
                         </svg>
                     </div>
-                    <h4>Port 7860</h4>
-                    <p>Standard HF Spaces port for web applications</p>
+                    <h4 data-i18n="deploy.card4.title">Port 8000</h4>
+                    <p data-i18n="deploy.card4.desc">Standard port 8000 for FastAPI</p>
                 </div>
             </div>
 
@@ -520,10 +524,10 @@
 <span class="comment"># Copy application</span>
 <span class="keyword">COPY</span> . .
 
-<span class="comment"># HF Spaces uses port 7860</span>
-<span class="keyword">EXPOSE</span> 7860
+<span class="comment"># Render uses port 8000</span>
+<span class="keyword">EXPOSE</span> 8000
 
-<span class="keyword">CMD</span> [<span class="string">"uvicorn"</span>, <span class="string">"backend.main:app"</span>, <span class="string">"--host"</span>, <span class="string">"0.0.0.0"</span>, <span class="string">"--port"</span>, <span class="string">"7860"</span>]</code></pre>
+<span class="keyword">CMD</span> [<span class="string">"uvicorn"</span>, <span class="string">"backend.main:app"</span>, <span class="string">"--host"</span>, <span class="string">"0.0.0.0"</span>, <span class="string">"--port"</span>, <span class="string">"8000"</span>]</code></pre>
             </div>
 
             <!-- Environment Info -->
@@ -534,7 +538,7 @@
                 </div>
                 <div class="env-item">
                     <span class="env-label">Port</span>
-                    <span class="env-value">7860</span>
+                    <span class="env-value">8000</span>
                 </div>
                 <div class="env-item">
                     <span class="env-label">RAM</span>
@@ -551,8 +555,8 @@
         <section class="page page-predict" id="page-predict">
             <div class="section-header center">
                 <span class="section-tag">// try_it_out</span>
-                <h3>Make a Prediction</h3>
-                <p>Enter student information below to predict their exam score</p>
+                <h3 data-i18n="predict.title">Make a Prediction</h3>
+                <p data-i18n="predict.subtitle">Enter student information below to predict their exam score</p>
             </div>
 
             <div class="content-grid">
@@ -560,16 +564,16 @@
                 <section class="panel form-panel">
                     <div class="panel-header">
                         <div class="panel-title">
-                            <h4>Student Information</h4>
+                            <h4 data-i18n="predict.form.title">Student Information</h4>
                         </div>
-                        <span class="panel-badge">Input</span>
+                        <span class="panel-badge" data-i18n="predict.form.badge">Input</span>
                     </div>
                     
                     <form id="predictionForm" class="prediction-form">
                         <div id="formFields" class="form-fields">
                             <div class="loading-fields">
                                 <div class="spinner"></div>
-                                <span>Loading form fields...</span>
+                                <span data-i18n="predict.form.loading">Loading form fields...</span>
                             </div>
                         </div>
                         
@@ -578,11 +582,11 @@
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
                                 </svg>
-                                Predict Score
+                                <span data-i18n="predict.form.submit">Predict Score</span>
                             </span>
                             <span class="btn-loading">
                                 <div class="spinner-small"></div>
-                                Analyzing...
+                                <span data-i18n="predict.form.analyzing">Analyzing...</span>
                             </span>
                         </button>
                     </form>
@@ -592,9 +596,9 @@
                 <section class="panel results-panel">
                     <div class="panel-header">
                         <div class="panel-title">
-                            <h4>Prediction Results</h4>
+                            <h4 data-i18n="predict.results.title">Prediction Results</h4>
                         </div>
-                        <span class="panel-badge">Output</span>
+                        <span class="panel-badge" data-i18n="predict.results.badge">Output</span>
                     </div>
 
                     <div id="resultsInitial" class="results-state results-initial active">
@@ -607,8 +611,8 @@
                                     <circle cx="40" cy="40" r="4" fill="currentColor" opacity="0.6"/>
                                 </svg>
                             </div>
-                            <h5>Ready for Analysis</h5>
-                            <p>Fill out the form and click "Predict Score"</p>
+                            <h5 data-i18n="predict.results.ready">Ready for Analysis</h5>
+                            <p data-i18n="predict.results.readyDesc">Fill out the form and click "Predict Score"</p>
                         </div>
                     </div>
 
@@ -625,8 +629,8 @@
                                     <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2" opacity="0.3"/>
                                 </svg>
                             </div>
-                            <h5>Processing...</h5>
-                            <p>ML model analyzing data</p>
+                            <h5 data-i18n="predict.results.processing">Processing...</h5>
+                            <p data-i18n="predict.results.analyzing">ML model analyzing data</p>
                         </div>
                     </div>
 
@@ -639,7 +643,7 @@
                                 </svg>
                                 <div class="score-value">
                                     <span class="score-number" id="scoreNumber">--</span>
-                                    <span class="score-label">predicted</span>
+                                    <span class="score-label" data-i18n="predict.results.predicted">predicted</span>
                                 </div>
                             </div>
                         </div>
@@ -648,7 +652,7 @@
                         </div>
                         <div class="score-details">
                             <div class="detail-row">
-                                <span class="detail-label">Model Version</span>
+                                <span class="detail-label" data-i18n="predict.results.modelVersion">Model Version</span>
                                 <span class="detail-value" id="modelVersion">--</span>
                             </div>
                         </div>
@@ -658,7 +662,7 @@
                                 <path d="M1 4v6h6M23 20v-6h-6"/>
                                 <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
                             </svg>
-                            New Prediction
+                            <span data-i18n="predict.results.newPrediction">New Prediction</span>
                         </button>
                     </div>
 
@@ -671,9 +675,9 @@
                                     <line x1="12" y1="16" x2="12.01" y2="16"/>
                                 </svg>
                             </div>
-                            <h5>Something Went Wrong</h5>
-                            <p id="errorMessage">Unable to get prediction.</p>
-                            <button type="button" class="retry-btn" id="retryBtn">Try Again</button>
+                            <h5 data-i18n="predict.results.error">Something Went Wrong</h5>
+                            <p id="errorMessage" data-i18n="predict.results.errorDesc">Unable to get prediction.</p>
+                            <button type="button" class="retry-btn" id="retryBtn" data-i18n="predict.results.retry">Try Again</button>
                         </div>
                     </div>
                 </section>
@@ -681,13 +685,13 @@
 
             <!-- Score Reference -->
             <div class="score-reference">
-                <div class="reference-header">Score Categories</div>
+                <div class="reference-header" data-i18n="predict.ref.title">Score Categories</div>
                 <div class="reference-items">
-                    <div class="ref-item excellent"><span>90-100</span> Excellent</div>
-                    <div class="ref-item good"><span>80-89</span> Good</div>
-                    <div class="ref-item average"><span>70-79</span> Average</div>
-                    <div class="ref-item below-average"><span>60-69</span> Below Avg</div>
-                    <div class="ref-item needs-improvement"><span>0-59</span> Needs Help</div>
+                    <div class="ref-item excellent"><span>90-100</span> <span data-i18n="predict.ref.excellent">Excellent</span></div>
+                    <div class="ref-item good"><span>80-89</span> <span data-i18n="predict.ref.good">Good</span></div>
+                    <div class="ref-item average"><span>70-79</span> <span data-i18n="predict.ref.average">Average</span></div>
+                    <div class="ref-item below-average"><span>60-69</span> <span data-i18n="predict.ref.belowAvg">Below Avg</span></div>
+                    <div class="ref-item needs-improvement"><span>0-59</span> <span data-i18n="predict.ref.needsHelp">Needs Help</span></div>
                 </div>
             </div>
         </section>
@@ -700,24 +704,26 @@
                 <div class="footer-orbit">
                     <div class="orbit-mini"></div>
                 </div>
-                <span>Student Score Predictor</span>
+                <span data-i18n="footer.title">Student Score Predictor</span>
             </div>
-            <p>A machine learning portfolio project • Docker + Hugging Face Spaces</p>
+            <p data-i18n="footer.tagline">A machine learning portfolio project • Docker + Render</p>
             <div class="footer-links">
                 <a href="https://kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
-                    Dataset
+                    <span data-i18n="footer.dataset">Dataset</span>
                 </a>
-                <a href="https://huggingface.co/spaces" target="_blank" rel="noopener">
-                    <svg viewBox="0 0 128 128"><path fill="currentColor" d="M64 8C35.3 8 12 31.3 12 60c0 23.3 15.3 43 36.5 49.6V124l15.5-9 15.5 9v-14.4C100.7 103 116 83.3 116 60c0-28.7-23.3-52-52-52z"/></svg>
-                    HF Spaces
+                <a href="https://render.com" target="_blank" rel="noopener">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm0-8h-2V7h2v2zm4 8h-2v-4h2v4zm0-6h-2V9h2v2z"/>
+                    </svg>
+                    Render
                 </a>
                 <a href="#" target="_blank" rel="noopener">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
                     GitHub
                 </a>
             </div>
-            <p class="copyright">© 2025 Portfolio Project</p>
+            <p class="copyright" data-i18n="footer.copyright">© 2025 DonMaCuandoNoEscribe</p>
         </div>
     </footer>
 

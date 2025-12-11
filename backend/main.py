@@ -28,7 +28,7 @@ async def lifespan(app: FastAPI):
     
     # Load the model
     model_service.load(str(model_path), str(config_path))
-    print(f"✓ Model loaded successfully (version {model_service.get_version()})")
+    print(f"[OK] Model loaded successfully (version {model_service.get_version()})")
     
     yield
     

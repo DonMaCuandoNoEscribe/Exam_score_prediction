@@ -3,6 +3,226 @@
  * Handles pill navigation, dynamic form generation, API communication, and results
  */
 
+// =============================================================================
+// TRANSLATIONS (English / Spanish)
+// =============================================================================
+
+const translations = {
+    en: {
+        // Header
+        'header.title': 'Student Score Predictor',
+        'header.badge': 'Portfolio Project',
+        
+        // Navigation
+        'nav.about': 'About',
+        'nav.stack': 'Stack',
+        'nav.deploy': 'Deploy',
+        'nav.predict': 'Predict',
+        
+        // Hero Section
+        'hero.badge': 'End-to-End Machine Learning Pipeline',
+        'hero.title': 'Predict Student Performance with',
+        'hero.title.gradient': 'Machine Learning',
+        'hero.description': 'A full-stack ML application that helps educators predict student exam scores based on study habits, attendance patterns, and environmental factors. Built as a portfolio project demonstrating modern MLOps practices with Docker containerization and cloud deployment.',
+        
+        // Stats
+        'stats.records': 'Training Records',
+        'stats.features': 'Features Selected',
+        'stats.target': 'R² Target',
+        'stats.achieved': 'R² Achieved',
+        
+        // CTA Buttons
+        'cta.predict': 'Try Prediction',
+        'cta.stack': 'View Tech Stack',
+        
+        // Goals
+        'goals.title': 'What We\'re Building',
+        'goals.1.title': 'Early Intervention',
+        'goals.1.desc': 'Identify at-risk students before exams through predictive analytics',
+        'goals.2.title': 'Data-Driven Decisions',
+        'goals.2.desc': 'Empower educators with actionable insights for personalized support',
+        'goals.3.title': 'MLOps Excellence',
+        'goals.3.desc': 'Demonstrate end-to-end ML pipeline with Docker & cloud deployment',
+        
+        // Stack Page
+        'stack.title': 'Built With Modern Tools',
+        'stack.subtitle': 'Production-ready architecture deployed on Render',
+        
+        // Architecture Cards
+        'arch.ds.title': 'Data Science',
+        'arch.ds.desc': 'EDA, feature engineering, model training',
+        'arch.api.title': 'Backend API',
+        'arch.api.desc': 'RESTful endpoints with FastAPI + Pydantic',
+        'arch.ui.title': 'Frontend UI',
+        'arch.ui.desc': 'Dynamic forms, real-time predictions',
+        'arch.deploy.title': 'Deployment',
+        'arch.deploy.desc': 'Docker container on Render',
+        'arch.deploy.tag': 'Free Tier',
+        
+        // Deploy Page
+        'deploy.title': 'Cloud Deployment',
+        'deploy.subtitle': 'Deployed on Render with Docker containerization',
+        'deploy.card1.title': 'Free Hosting',
+        'deploy.card1.desc': 'Free tier deployment on Render',
+        'deploy.card2.title': 'Docker SDK',
+        'deploy.card2.desc': 'Full control with custom Dockerfile configuration',
+        'deploy.card3.title': 'Auto Deploy',
+        'deploy.card3.desc': 'Git push triggers automatic container rebuild',
+        'deploy.card4.title': 'Port 8000',
+        'deploy.card4.desc': 'Standard port 8000 for FastAPI',
+        
+        // Predict Page
+        'predict.title': 'Make a Prediction',
+        'predict.subtitle': 'Enter student information below to predict their exam score',
+        'predict.form.title': 'Student Information',
+        'predict.form.badge': 'Input',
+        'predict.form.loading': 'Loading form fields...',
+        'predict.form.submit': 'Predict Score',
+        'predict.form.analyzing': 'Analyzing...',
+        'predict.results.title': 'Prediction Results',
+        'predict.results.badge': 'Output',
+        'predict.results.ready': 'Ready for Analysis',
+        'predict.results.readyDesc': 'Fill out the form and click "Predict Score"',
+        'predict.results.processing': 'Processing...',
+        'predict.results.analyzing': 'ML model analyzing data',
+        'predict.results.predicted': 'predicted',
+        'predict.results.modelVersion': 'Model Version',
+        'predict.results.newPrediction': 'New Prediction',
+        'predict.results.error': 'Something Went Wrong',
+        'predict.results.errorDesc': 'Unable to get prediction.',
+        'predict.results.retry': 'Try Again',
+        
+        // Score Reference
+        'predict.ref.title': 'Score Categories',
+        'predict.ref.excellent': 'Excellent',
+        'predict.ref.good': 'Good',
+        'predict.ref.average': 'Average',
+        'predict.ref.belowAvg': 'Below Avg',
+        'predict.ref.needsHelp': 'Needs Help',
+        
+        // Footer
+        'footer.title': 'Student Score Predictor',
+        'footer.tagline': 'A machine learning portfolio project • Docker + Render',
+        'footer.dataset': 'Dataset',
+        'footer.copyright': '© 2025 DonMaCuandoNoEscribe',
+        
+        // Interpretations
+        'interp.excellent': 'Excellent! This student shows strong potential. Consider advanced opportunities.',
+        'interp.good': 'Good performance. Targeted support could help reach excellence.',
+        'interp.average': 'Meeting expectations. Additional study strategies recommended.',
+        'interp.belowAverage': 'Early intervention recommended. Review study habits and attendance.',
+        'interp.needsImprovement': 'Significant support needed. One-on-one tutoring recommended.'
+    },
+    es: {
+        // Header
+        'header.title': 'Predictor de Calificaciones',
+        'header.badge': 'Proyecto de Portafolio',
+        
+        // Navigation
+        'nav.about': 'Inicio',
+        'nav.stack': 'Tech',
+        'nav.deploy': 'Deploy',
+        'nav.predict': 'Predecir',
+        
+        // Hero Section
+        'hero.badge': 'Pipeline de Machine Learning End-to-End',
+        'hero.title': 'Predice el Rendimiento Estudiantil con',
+        'hero.title.gradient': 'Machine Learning',
+        'hero.description': 'Una aplicación ML full-stack que ayuda a educadores a predecir calificaciones de exámenes basándose en hábitos de estudio, patrones de asistencia y factores ambientales. Construido como proyecto de portafolio demostrando prácticas modernas de MLOps con Docker y despliegue en la nube.',
+        
+        // Stats
+        'stats.records': 'Registros de Entrenamiento',
+        'stats.features': 'Características Seleccionadas',
+        'stats.target': 'R² Objetivo',
+        'stats.achieved': 'R² Logrado',
+        
+        // CTA Buttons
+        'cta.predict': 'Probar Predicción',
+        'cta.stack': 'Ver Tech Stack',
+        
+        // Goals
+        'goals.title': 'Lo Que Estamos Construyendo',
+        'goals.1.title': 'Intervención Temprana',
+        'goals.1.desc': 'Identificar estudiantes en riesgo antes de los exámenes mediante análisis predictivo',
+        'goals.2.title': 'Decisiones Basadas en Datos',
+        'goals.2.desc': 'Empoderar educadores con información accionable para apoyo personalizado',
+        'goals.3.title': 'Excelencia en MLOps',
+        'goals.3.desc': 'Demostrar pipeline ML end-to-end con Docker y despliegue en la nube',
+        
+        // Stack Page
+        'stack.title': 'Construido con Herramientas Modernas',
+        'stack.subtitle': 'Arquitectura lista para producción desplegada en Render',
+        
+        // Architecture Cards
+        'arch.ds.title': 'Ciencia de Datos',
+        'arch.ds.desc': 'EDA, ingeniería de características, entrenamiento de modelos',
+        'arch.api.title': 'API Backend',
+        'arch.api.desc': 'Endpoints RESTful con FastAPI + Pydantic',
+        'arch.ui.title': 'UI Frontend',
+        'arch.ui.desc': 'Formularios dinámicos, predicciones en tiempo real',
+        'arch.deploy.title': 'Despliegue',
+        'arch.deploy.desc': 'Contenedor Docker en Render',
+        'arch.deploy.tag': 'Tier Gratuito',
+        
+        // Deploy Page
+        'deploy.title': 'Despliegue en la Nube',
+        'deploy.subtitle': 'Desplegado en Render con contenedorización Docker',
+        'deploy.card1.title': 'Hosting Gratuito',
+        'deploy.card1.desc': 'Despliegue en tier gratuito de Render',
+        'deploy.card2.title': 'Docker SDK',
+        'deploy.card2.desc': 'Control total con configuración Dockerfile personalizada',
+        'deploy.card3.title': 'Auto Despliegue',
+        'deploy.card3.desc': 'Git push activa reconstrucción automática del contenedor',
+        'deploy.card4.title': 'Puerto 8000',
+        'deploy.card4.desc': 'Puerto estándar 8000 para FastAPI',
+        
+        // Predict Page
+        'predict.title': 'Hacer una Predicción',
+        'predict.subtitle': 'Ingresa información del estudiante para predecir su calificación',
+        'predict.form.title': 'Información del Estudiante',
+        'predict.form.badge': 'Entrada',
+        'predict.form.loading': 'Cargando campos del formulario...',
+        'predict.form.submit': 'Predecir Calificación',
+        'predict.form.analyzing': 'Analizando...',
+        'predict.results.title': 'Resultados de Predicción',
+        'predict.results.badge': 'Salida',
+        'predict.results.ready': 'Listo para Análisis',
+        'predict.results.readyDesc': 'Completa el formulario y haz clic en "Predecir Calificación"',
+        'predict.results.processing': 'Procesando...',
+        'predict.results.analyzing': 'Modelo ML analizando datos',
+        'predict.results.predicted': 'predicho',
+        'predict.results.modelVersion': 'Versión del Modelo',
+        'predict.results.newPrediction': 'Nueva Predicción',
+        'predict.results.error': 'Algo Salió Mal',
+        'predict.results.errorDesc': 'No se pudo obtener la predicción.',
+        'predict.results.retry': 'Intentar de Nuevo',
+        
+        // Score Reference
+        'predict.ref.title': 'Categorías de Calificación',
+        'predict.ref.excellent': 'Excelente',
+        'predict.ref.good': 'Bueno',
+        'predict.ref.average': 'Promedio',
+        'predict.ref.belowAvg': 'Bajo Promedio',
+        'predict.ref.needsHelp': 'Necesita Ayuda',
+        
+        // Footer
+        'footer.title': 'Predictor de Calificaciones',
+        'footer.tagline': 'Un proyecto de portafolio de machine learning • Docker + Render',
+        'footer.dataset': 'Dataset',
+        'footer.copyright': '© 2025 Proyecto de Portafolio',
+        
+        // Interpretations
+        'interp.excellent': '¡Excelente! Este estudiante muestra gran potencial. Considere oportunidades avanzadas.',
+        'interp.good': 'Buen rendimiento. El apoyo dirigido podría ayudar a alcanzar la excelencia.',
+        'interp.average': 'Cumple expectativas. Se recomiendan estrategias de estudio adicionales.',
+        'interp.belowAverage': 'Se recomienda intervención temprana. Revise hábitos de estudio y asistencia.',
+        'interp.needsImprovement': 'Se necesita apoyo significativo. Se recomienda tutoría individual.'
+    }
+};
+
+// Current language state
+let currentLang = localStorage.getItem('lang') || 'en';
+
 // Configuration
 const CONFIG = {
     // Use relative URL - works both locally and when deployed (backend serves frontend)
@@ -122,6 +342,58 @@ function updatePillSlider(activeBtn) {
 window.navigateTo = navigateTo;
 
 // =============================================================================
+// Language Functions
+// =============================================================================
+
+/**
+ * Set the application language and update all translated elements
+ */
+function setLanguage(lang) {
+    currentLang = lang;
+    localStorage.setItem('lang', lang);
+    
+    // Update all elements with data-i18n attribute
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    });
+    
+    // Update active button state
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+    
+    // Update HTML lang attribute
+    document.documentElement.lang = lang;
+    
+    // Recalculate pill slider position after text changes
+    setTimeout(() => {
+        const activeBtn = document.querySelector('.pill-btn.active');
+        if (activeBtn) updatePillSlider(activeBtn);
+    }, 10);
+}
+
+/**
+ * Initialize language toggle
+ */
+function initLanguageToggle() {
+    const langToggle = document.getElementById('langToggle');
+    if (!langToggle) return;
+    
+    langToggle.addEventListener('click', (e) => {
+        if (e.target.classList.contains('lang-btn')) {
+            const lang = e.target.dataset.lang;
+            setLanguage(lang);
+        }
+    });
+    
+    // Apply saved language on load
+    setLanguage(currentLang);
+}
+
+// =============================================================================
 // Utility Functions
 // =============================================================================
 
@@ -144,14 +416,17 @@ function getCategoryClass(category) {
 }
 
 function getInterpretation(score, category) {
-    const interpretations = {
-        'Excellent': `Predicted <strong>${score}</strong> — Excellent! This student shows strong potential. Consider advanced opportunities.`,
-        'Good': `Predicted <strong>${score}</strong> — Good performance. Targeted support could help reach excellence.`,
-        'Average': `Predicted <strong>${score}</strong> — Meeting expectations. Additional study strategies recommended.`,
-        'Below Average': `Predicted <strong>${score}</strong> — Early intervention recommended. Review study habits and attendance.`,
-        'Needs Improvement': `Predicted <strong>${score}</strong> — Significant support needed. One-on-one tutoring recommended.`
+    const t = translations[currentLang];
+    const categoryMap = {
+        'Excellent': t['interp.excellent'],
+        'Good': t['interp.good'],
+        'Average': t['interp.average'],
+        'Below Average': t['interp.belowAverage'],
+        'Needs Improvement': t['interp.needsImprovement']
     };
-    return interpretations[category] || `Predicted score: ${score}`;
+    const interpretation = categoryMap[category] || '';
+    const predictedLabel = currentLang === 'es' ? 'Predicción' : 'Predicted';
+    return `${predictedLabel} <strong>${score}</strong> — ${interpretation}`;
 }
 
 function calculateRingOffset(score) {
@@ -451,7 +726,10 @@ function resetForm() {
 // =============================================================================
 
 async function init() {
-    console.log('🎓 Student Score Predictor v2.0');
+    console.log('Student Score Predictor v2.0');
+    
+    // Initialize language toggle
+    initLanguageToggle();
     
     // Initialize pill navigation
     initPillNav();

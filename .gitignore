@@ -25,6 +25,7 @@ Thumbs.db
 # Project specific - don't upload to HF Spaces
 WORKFORCE/
 student_performance.ipynb
+website_holdout_set.csv
 
 # Kaggle cache
 .cache/
